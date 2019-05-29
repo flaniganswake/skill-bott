@@ -1,0 +1,258 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load filters %}
+
+<script>
+var arrList = new Array()
+ndx=0;
+{% for category in categories %}
+    arrList[ndx] = new Array(String(ndx),'{{ category.type }}')
+    ndx++
+{% endfor %}
+
+function outputList(ar, name, size) {
+	var strIDs = "<SELECT SIZE=\"" + size + "\" NAME=\"ro_lst" + name + "\">"
+	var sel = " SELECTED"
+	for (var i=0;i<ar.length;i++) {
+		strIDs += "<OPTION " + sel + " VALUE=\"" + ar[i][0] + "\">" + ar[i][1]
+		sel = ""
+	}
+	strIDs+="</SELECT>"
+	strIDs+="<INPUT NAME=\"" + name + "\" TYPE=hidden>"
+	return strIDs
+}
+
+function outputButton(bDir,name,val) {
+	return "<INPUT TYPE=button VALUE=\"" + val + "\" ONCLICK=\"move(this.form," + bDir + ",'" + name + "')\">"
+}
+
+function move(f,bDir,sName) {
+	var el = f.elements["ro_lst" + sName]
+	var idx = el.selectedIndex
+	if (idx==-1) 
+		alert("You must first select the item to reorder.")
+	else {
+		var nxidx = idx+( bDir? -1 : 1)
+		if (nxidx<0) nxidx=el.length-1
+		if (nxidx>=el.length) nxidx=0
+		var oldVal = el[idx].value
+		var oldText = el[idx].text
+		el[idx].value = el[nxidx].value
+		el[idx].text = el[nxidx].text
+		el[nxidx].value = oldVal
+		el[nxidx].text = oldText
+		el.selectedIndex = nxidx
+	}
+}
+
+function processForm(f) {
+	for (var i=0;i<f.length;i++) {	
+		var el = f[i]
+		if (el.name.substring(0,6)=="ro_lst") {
+			var strIDs = ""
+			for (var j=0;j<f[i].options.length;j++)
+				strIDs += f[i].options[j].value + ", "
+			f.elements[f.elements[i].name.substring(6)].value = strIDs.substring(0,strIDs.length-2)
+		}
+	}
+}
+</script>
+
+{% include "header.html" %}
+<script type="text/javascript" src="{{ MEDIA_URL }}js/assess.js"></script>
+
+{% if results and results.values_complete %}
+<div style='margin-left:auto;margin-right:auto;margin-top:0px;padding-bottom:15px;'>
+    <a href="{% url 'views.certificate' %}" target='_blank'>
+    <h2 style='font-style:italic;color:blue;text-decoration:underline;padding-top:10px;text-align:center;'>Your Certificate of Completion!</h2></a>
+</div>
+{% endif %}
+
+{% if inventory %}
+
+<table width="800" border="0" cellspacing="0" cellpadding="0"><tbody>
+
+  {% include "navigation.html" %}
+
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:20px;'>{{ inventory.tagline }}</td></tr>
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:20px;text-align:justify;'>
+      Here is your current assessment table. It shows your top five 'interests' categories along with your area of interest for each category.
+      The area of interest is determined by the mode - the highest frequency green answer for that specific category. If you would like to 
+      change the order your categories - use the widget below and submit your preferred order.
+  </td></tr>
+ 
+  {# assessment table #}
+  <tr><td style='position:relative;left:140px;text-align:left;'><h2>MY ASSESSMENT TABLE</h2></td></tr>
+  <tr><td style='position:relative;left:30px;'>
+
+  <table>
+  <tr><td>
+
+  <table><tbody>
+      <tr>
+      <td class='left_column'></td>
+      <td style='padding-left:20px;padding-top:10px;padding-bottom:10px;width:155px;'>
+          <span class='category_header'>Category</span></td>
+      <td style='color:black;width:160px;text-align:center;'>
+          <span class='table_row'>Interests Area</span></td>
+      </tr>
+      {% for category in categories %}
+      <tr>
+      <td class='left_column'></td>
+      <td style='padding-left:20px;padding-top:10px;padding-bottom:10px;background:#99CCFF;' title='{{ category.hover }}'>
+          <span class='category_header'>{{ category.type }}</span></td>
+      <td style='background:#8FFF6F;text-align:center;'>
+          <span class='table_row'>{{ interests_areas|lookup:category.type }} ({{ green_modes|lookup:category.type }})</span></td>
+      <td>
+      </td>
+      </tr>
+      {% endfor %} {# categories loop #}
+      </td>
+      </tr>
+  </tbody></table>
+  <td>
+      <div style='text-align:left;padding-left:20px;padding-top:30px;'>
+      <form method=post onsubmit="processForm(this)">
+      <script>
+          document.write(outputButton(true,"new_order","Move Up") + "<BR>")
+          document.write(outputList(arrList,"new_order",5) + "<BR>")
+          document.write(outputButton(false,"new_order","Move Down"))
+      </script>
+      <br><br><input type=submit value="Submit New Order">
+      </form>
+      </div>
+  </td>
+  </tr>
+  </table>
+  
+  <br><br><br>
+
+  <tr><td style='position:relative;left:60px;'>
+      {% include "interests_legend.html" %}
+  </td></tr>
+  <br>
+  <tr><td style='position:relative;left:20px;'>
+  <table><tbody>
+      <tr><td>
+      
+      {% for category in categories %}
+      <tr>
+      <td class='left_column'></td>
+      <td style='padding-left:20px;padding-top:20px;padding-bottom:10px;' title='{{ category.hover }}'>
+          <span class='category_header'>{{ category.type }}</span></td>
+      <td></td>
+      {% if inventory.type == 'interests' %}
+      <td class='values_header'> Interest </td>
+      {% endif %}
+      <td></td>
+      <td></td>
+      {% if inventory.type == 'interests' %}
+      <td class='values_header'> Area </td>
+      {% endif %}
+      <td></td>
+      <td></td>
+      </tr>
+
+      {% for topic in category.topics.all %}
+      <tr>
+      <td class='left_column' id='{{ topic.id }}_questicon'></td>
+      <td class='topic' title='{{ topic.hover }}'>
+          {% if complete == 0 and started == 1 and yellow_answers|lookup:topic.id == -1 %}
+          style='border-style:solid;border-width:2px;border-color:red;'
+          {% endif %} 
+          {{ topic.name }}
+          {% if topic.name == 'Other' %}
+              <input type="text" size=15 name="other_{{ topic.id  }}" disabled="disabled"
+
+                  {% if other_answers %}
+                      value="{{ other_answers|lookup:topic.id }}"
+                  {% else %}
+                      value="">
+                  {% endif %}
+              </input>
+          {% endif %}
+      </td>
+
+      {# initialize yellow radio buttons #}
+      {% for yellow_choice in inventory.yellow_choices.all %}
+          <td class='yellow_choice' id='{{ topic.id }}_yellowtd{{ forloop.counter }}'
+              style='width:{{ yellow_widths|lookup:forloop.counter0 }};'>
+          <input id='{{ topic.id }}_yellowbtn{{ forloop.counter }}' type="radio" name="yellow_{{ topic.id }}" 
+              value={{ forloop.counter0 }}
+          {% if yellow_answers %}
+              {% if yellow_answers|lookup:topic.id == forloop.counter0 %}
+              checked
+              {% endif %}
+          {% endif %}
+          >{{ yellow_choice.text }}</td>
+      {% endfor %}
+
+      {# initialize green radio buttons #}
+      {% for green_choice in inventory.green_choices.all %}
+          <td class='green_choice' id='{{ topic.id }}_greentd{{ forloop.counter }}'
+              style='width:{{ green_widths|lookup:forloop.counter0 }};'>
+          <input id='{{ topic.id  }}_greenbtn{{ forloop.counter }}' type="radio" name="green_{{ topic.id }}" 
+              value={{ forloop.counter }} disabled="disabled" onClick="borderGreen(false, {{ topic.id }})"
+          {% if green_answers %}
+              {% if green_answers|lookup:topic.id == forloop.counter %}
+              checked
+              {% endif %}
+          {% endif %}
+          >{{ green_choice.text }}</td>
+      {% endfor %}
+      </td>
+      </tr>
+
+      {# disable all buttons #}
+      <script type="text/javascript" language="JavaScript">
+          disableYellow(true, false, {{ topic.id }});
+          disableGreen(true, false, {{ topic.id }});
+      </script>
+
+      {% endfor %} {# topics loop #}
+
+      <tr>
+      <td class='left_column'></td>
+      <td style='border-style:solid;border-color:#000066;border-width:3px;'>
+      <table>
+      <tr>
+      <td class='topic' style='background:#FFFF84;color:black;width:95px;'>
+          <span class='table_row'>Total:  {{ yellow_totals|lookup:category.type }}</span></td>
+      <td class='topic' style='background:#8FFF6F;color:black;width:95px;'>
+          <span class='table_row'>Mode:  {{ green_modes|lookup:category.type }}</span></td>
+      </tr>
+      </table>
+      </td>
+
+      <td style='background:#FFFF84;text-align:center;'>
+          <span class='table_row'>{{ yellow_totals0|lookup:category.type }}</span></td>
+      <td style='background:#FFFF84;text-align:center;'>
+          <span class='table_row'>{{ yellow_totals1|lookup:category.type }}</span></td>
+      <td style='background:#FFFF84;text-align:center;'>
+          <span class='table_row'>{{ yellow_totals2|lookup:category.type }}</span></td>
+      <td style='background:#8FFF6F;text-align:center;'>
+          <span class='table_row'>{{ green_totals1|lookup:category.type }}</span></td>
+      <td style='background:#8FFF6F;text-align:center;'>
+          <span class='table_row'>{{ green_totals2|lookup:category.type }}</span></td>
+      <td style='background:#8FFF6F;text-align:center;'>
+          <span class='table_row'>{{ green_totals3|lookup:category.type }}</span></td>
+      </tr>
+
+      {% endfor %} {# categories loop #}
+      </td></tr>
+  </tbody></table>
+  </td></tr>
+</tbody></table>
+<br><br>
+
+{% endif %}
+
+</div>
+<br><br>
+</body>
+		
+{% include "footer.html" %}
+
+
+{% endblock %}

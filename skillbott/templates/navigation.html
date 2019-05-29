@@ -1,0 +1,75 @@
+<tr><td style='position:relative;left:60px;'>
+    <h1 style='font-size:13px;text-align:left;'>{{ inventory.title }}
+
+    {% if inventory.type == 'interests' %}
+        {% if inventory_page and complete %}
+         - Tally Sheet |
+        <a href="{% url 'views.interests_analysis' %}" style='color:red;font-size:13px;text-decoration:underline;'> Analysis</a> |
+        <a href="{% url 'views.interests_summary' %}" style='color:red;font-size:13px;text-decoration:underline;' target='_blank'> Summary</a>
+        {% endif %}
+
+        {% if analysis_page %} 
+        -
+        <a href="{% url 'views.interests_inventory' %}" style='color:red;font-size:13px;text-decoration:underline;'> Tally Sheet</a>
+        | Analysis |
+        <a href="{% url 'views.interests_summary' %}" style='color:red;font-size:13px;text-decoration:underline;' target='_blank'> Summary</a>
+        {% endif %}
+
+        {% if summary_page %}
+        -
+        <a href="{% url 'views.interests_inventory' %}" style='color:red;font-size:13px;text-decoration:underline;'> Tally Sheet</a>
+        |
+        <a href="{% url 'views.interests_analysis' %}" style='color:red;font-size:13px;text-decoration:underline;'> Analysis</a>
+        | Summary
+        {% endif %}
+    {% endif %}
+
+    {% if inventory.type == 'skills' %}
+        {% if inventory_page and complete %}
+         - Tally Sheet |
+        <a href="{% url 'views.skills_analysis' %}" style='color:red;font-size:13px;text-decoration:underline;'> Analysis</a> |
+        <a href="{% url 'views.skills_summary' %}" style='color:red;font-size:13px;text-decoration:underline;' target='_blank'> Summary</a>
+        {% endif %}
+
+        {% if analysis_page %}
+        -
+        <a href="{% url 'views.skills_inventory' %}" style='color:red;font-size:13px;text-decoration:underline;'> Tally Sheet</a>
+        | Analysis |
+        <a href="{% url 'views.skills_summary' %}" style='color:red;font-size:13px;text-decoration:underline;' target='_blank'> Summary</a>
+        {% endif %}
+
+        {% if summary_page %}
+        -
+        <a href="{% url 'views.skills_inventory' %}" style='color:red;font-size:13px;text-decoration:underline;'> Tally Sheet</a>
+        |
+        <a href="{% url 'views.skills_analysis' %}" style='color:red;font-size:13px;text-decoration:underline;'> Analysis</a>
+        | Summary
+        {% endif %}
+    {% endif %}
+
+    {% if inventory.type == 'values' %}
+        {% if inventory_page and complete %}
+        - Tally Sheet |
+        <a href="{% url 'views.values_analysis' %}" style='color:red;font-size:13px;text-decoration:underline;'> Analysis</a> 
+        |
+        <a href="{% url 'views.values_summary' %}" style='color:red;font-size:13px;text-decoration:underline;' target='_blank'> Summary</a>
+        {% endif %}
+
+        {% if analysis_page %}
+        -
+        <a href="{% url 'views.values_inventory' %}" style='color:red;font-size:13px;text-decoration:underline;'>Tally Sheet</a>
+        | Analysis |
+        <a href="{% url 'views.values_summary' %}" style='color:red;font-size:13px;text-decoration:underline;' target='_blank'> Summary</a>
+        {% endif %}
+
+        {% if summary_page %}
+        -
+        <a href="{% url 'views.values_inventory' %}" style='color:red;font-size:13px;text-decoration:underline;'>Tally Sheet</a>
+        |
+        <a href="{% url 'views.values_analysis' %}" style='color:red;font-size:13px;text-decoration:underline;'> Analysis</a>
+        | Summary
+        {% endif %}
+    {% endif %}
+
+    </h1>
+</td></tr>

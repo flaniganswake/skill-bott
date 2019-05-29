@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load filters %}
+
+{% include "header.html" %}
+
+{% if inventory %}
+
+<table width="780" border="0" cellspacing="0" cellpadding="0"><tbody>
+
+  {% include "navigation.html" %}
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>{{ inventory.tagline }}</td></tr>
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>
+    Get into a group of three students to discuss your answers to the following questions - then share with the entire class 
+    in a wrap up discussion.  Before you discuss these items as a group, read #1 independently, then continue with #'s 2 thru 
+    8 as a group.
+  </td></tr>
+  <tr><td style='padding-left:40px;padding-right:40px;'>
+    <ol start="1">
+    <li class='summary_line'>
+    Were any of your interests from the YELLOW section scored in the 0-5 range?  If yes, you might want to consider "tossing out" that score and continuing on with the scores that landed in the MED to HIGH range of interest.  After all, why would you pursue a career category that is of little interest to you?
+    </li>    
+    <li class='summary_line'>
+    Share your top 5 interests with your group members.   
+    </li>    
+    <li class='summary_line'>
+    Does your list have any "surprise" interests?  Were there any interests you identified that you had never seriously considered?  If yes, which ones?  If no, why not?
+    </li>    
+    <li class='summary_line'>
+    How well do you feel your list represents your strongest interests?
+    </li>    
+    <li class='summary_line'>
+    Compare your #1 interest with your #5 interest.  Do you see a major difference in their scores?  Why or why not?
+    </li>    
+    <li class='summary_line'>
+    Share your scores relating to your interests' GREEN column (Items, Interpersonal, Ideas).  Which interests revealed a desire to work with ITEMS?  Which interests revealed a desire to work with INTERPERSONAL/PEOPLE?  Which interests revealed a desire to work with IDEAS?  
+    </li>    
+    <li class='summary_line'>
+    Which area did you tend to choose more often: IDEAS, INTERPERSONAL or ITEMS?
+    </li>    
+    <li class='summary_line'>
+    How would you explain the fact that you might have chosen one category (IDEAS, INTERPERSONAL, ITEMS) more than the other two?  What is it about ideas/concepts or interpersonal relations/people or items/things that appeal to you?
+    </li>    
+    </ol>  
+    </td></tr>
+</tbody></table>
+<br><br>
+
+{% endif %}
+
+</div>
+<br><br>
+</body>
+	
+{% include "footer.html" %}
+{% endblock %}

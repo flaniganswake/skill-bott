@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load filters %}
+
+{% include "header.html" %}
+
+{% if inventory %}
+
+<table width="780" border="0" cellspacing="0" cellpadding="0"><tbody>
+
+  {% include "navigation.html" %}
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>{{ inventory.tagline }}</td></tr>
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'><h2>Instructions:</h2></td></tr>
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>
+  This self-assessment will help you identify your likes and dislikes as well as your strengths. Listed below in the blue column 
+  are different career fields of interest. Below each field are the jobs that are often associated with that path. In order to 
+  determine which field you might be interested in, you should rate each one. If you don't know what a particular field is, 
+  hover your cursor over them, and an explanation will appear.
+  </td></tr>
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>
+    1.  Complete the YELLOW column by selecting the choice that corresponds to your answer. You have 3 choices:
+    <ul>
+    <li class='summary_line'>
+    No = You have NO interest in the job in the left column
+    </li>
+    <li class='summary_line'>
+    Maybe = You MIGHT have an interest or a SLIGHT interest
+    </li>
+    <li class='summary_line'>
+    Yes = You ARE interested in the job from the first column
+    </li>
+    </ul>
+    2.  If your answer from the YELLOW column was "maybe" or "yes," then complete the GREEN column. When completing the GREEN column, 
+    make the following choices:
+    <ul>
+    <li class='summary_line'>
+    Items = if you are interested in or like working with ITEMS or THINGS
+    </li>
+    <li class='summary_line'>
+    Interpersonal = if you like working with PEOPLE or INTERPERSONAL related tasks 
+    </li>
+    <li class='summary_line'>
+    Ideas/Info = if you like or are interested in working with ITEMS, INTERPERSONAL, or IDEAS/INFO
+    </li>
+    </ul>
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>
+    It is also important to remember that when you are selecting an interest or like, related to 'Items', 'Interpersonal' or 'Ideas/Info', that you consider it in relation to the job in the first column. 
+    For example - under 'General Business', let's say you chose 'Yes' in the YELLOW column for 'Sales.' That means your next step is to select a choice in the GREEN column and decide if you would most like to work with 'Items' or 'Interpersonal' or 'Ideas/Info' in a 'Sales' related job. If you would like to add a topic for 'Other' - enter your topic and select a YELLOW and or GREEN value as well. 
+    Keep working through the blue column in the same way.
+  </td></tr>
+  
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>
+  <h2><a href="{% url 'views.interests_inventory' %}" style='color:red;'>
+  Take the INTERESTS & ADORATIONS assessment!</a></h2>
+  </td></tr>
+
+</tbody></table>
+<br><br>
+
+{% endif %}
+
+</div>
+<br><br>
+</body>
+	
+{% include "footer.html" %}
+{% endblock %}

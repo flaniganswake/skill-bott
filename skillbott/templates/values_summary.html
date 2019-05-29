@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load filters %}
+
+{% include "header.html" %}
+
+{% if inventory %}
+
+<table width="780" border="0" cellspacing="0" cellpadding="0"><tbody>
+
+  {% include "navigation.html" %}
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>{{ inventory.tagline }}</td></tr>
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>
+       Get into a group of three students to discuss your answers to the following questions-then share with the 
+       entire class in a wrap up discussion.</td></tr>
+  <tr><td style='padding-left:0px;padding-right:40px;'>
+    <ul style='list-style-type:none;'>
+    <li class='summary_line'>
+      1. Share your values/needs scores with your group members.  What were the scores of your 5 categories for the YELLOW section (Needs for Yourself)?  What were the scores of your 5 categories for the GREEN section (Needs from your Job)?  
+    </li>    
+    <li class='summary_line'>
+      2. Does your list have any "surprise" needs/values?  Were there any needs you identified that you had never seriously considered or knew you personally valued?  If yes, which ones?  If no, why not?
+    </li>   
+    <li class='summary_line'>
+      3. How well do you feel your list represents your needs in each category?  Do you possess additional strong needs in each category that might not have been represented on the inventory?  If yes, mention what they are to the group and add them to the "MY ASSESSMENT TABLE".
+    </li>   
+    <li class='summary_line'>
+      4. Review your "MY ASSESSMENT TABLE."  Look at the first line and read it across from left to right.  In the example on the previous page, it reads: "General Business-Items-Medium Current Skills-High Desire for Future Training-High Level of Personal Needs-Medium Level of Job Needs-Personally Value: Power, Stability, Success-Value Money, Variety, Growth on the Job."  Read your 5 lines to your group in the same manner. Then answer the following:
+    </li>   
+    <li class='summary_line' style='padding-left:20;'>
+      a.  Do any of your lines contain values that don't seem to fit a particular category?  (For example, do you value money and power but have high interests and skills in Human Services?) If so, what might that indicate?  Might it indicate that there is a slight disconnect between your values and needs as they relate to your interests and skills?  Might it mean that you might want to become a rich and powerful person in the field of Human Services and you will have to work extra hard because most careers in Human Services don't allow employees to become rich due to low salaries? Discuss it with the group and be sure to follow up with your teacher/counselor to figure out its meaning.  Also look for other needs/values you have and test them against your skills and interest categories to make sure they fit.
+    </li> 
+    <li class='summary_line' style='padding-left:20;'>
+      b.  Look back at the values/needs for all of your categories.  Compare your numerical scores from the YELLOW (Personal Needs) section to your numerical scores from the GREEN (Job/Career Needs) section.
+    </li>
+    <li class='summary_line' style='padding-left:40;'>
+      i.  Which category, YELLOW or GREEN had higher scores?
+    </li> 
+    <li class='summary_line' style='padding-left:40;'>
+      ii.  Were the scores mixed, meaning neither YELLOW nor GREEN had higher scores?  
+    </li> 
+    <li class='summary_line' style='padding-left:40;'>
+      iii. What do you suppose it means if you consistently scored higher in YELLOW more than GREEN?  
+    </li> 
+    <li class='summary_line' style='padding-left:40;'>
+      iv.  What do you suppose it means if you scored higher more often in GREEN than in YELLOW?  Can you find differences or similarities between your numerical YELLOW needs/values and your numerical GREEN needs/values?  Meaning, try to find the common needs that you have for yourself and see how they translate to your needs on the job.  For example, in General Business, personally, you might value Ambitiousness and On the Job Needs might match up with Recognition or Growth.  See if you can find commonalities like that with your scores.
+    </li> 
+    <li class='summary_line'>
+      5. Review your written values/needs summaries for a moment.  
+    </li>    
+    <li class='summary_line' style='padding-left:20;'>
+      a. First, look at the YELLOW list of your TOP 3 values/needs.
+    </li> 
+    <li class='summary_line' style='padding-left:40;'>
+      i.  Share your list with your group.
+    </li> 
+    <li class='summary_line' style='padding-left:40;'>
+      ii.  Was it easy or difficult to choose those 3 values/needs from your list?  Why?
+    </li> 
+    <li class='summary_line' style='padding-left:40;'>
+      iii.  Explain to your group why and how those 3 values/needs are most important to you and how you hope to use them in your future job.
+    </li> 
+    <li class='summary_line' style='padding-left:20;'>
+      b. Second, look at the GREEN list of your TOP 3 values/needs.
+    </li>
+    <li class='summary_line' style='padding-left:40;'>
+      i.  Share your list with your group.
+    </li> 
+    <li class='summary_line' style='padding-left:40;'>
+      ii.  Was it easy or difficult to choose those 3 values/needs from your list?  Why?
+    </li> 
+    <li class='summary_line' style='padding-left:40;'>
+      iii.  Explain to your group why and how those 3 values/needs are most important to you and how you hope to use them in your future job.
+    </li> 
+    <li class='summary_line'>
+      6. With your counselor/teacher be sure to review all of your highest values/needs in ALL of your categories and think about how they link with your desire to work with your INTERSTS, IDEAS, INTERPERSONAL, ITEMS and SKILLS.
+    </li>
+    </ul>
+    </td></tr>
+</tbody></table>
+<br><br>
+
+{% endif %}
+
+</div>
+<br><br>
+</body>
+	
+{% include "footer.html" %}
+{% endblock %}

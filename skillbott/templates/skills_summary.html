@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load filters %}
+
+{% include "header.html" %}
+
+{% if inventory %}
+
+<table width="780" border="0" cellspacing="0" cellpadding="0"><tbody>
+
+  {% include "navigation.html" %}
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>{{ inventory.tagline }}</td></tr>
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>
+       Get into a group of three students to discuss your answers to the following questions-then share with the 
+       entire class in a wrap up discussion.</td></tr>
+  <tr><td style='padding-left:40px;padding-right:40px;'>
+    <ol start="1">
+    <li class='summary_line'>
+      Share your skills scores with your group members.  What were the scores of your 5 categories for the YELLOW section 
+      (Current Skills)?  What were the scores of your 5 categories for the GREEN section (Future Skills)?  
+    </li>    
+    <li class='summary_line'>
+      Does your list have any "surprise" skills?  Were there any skills you identified that you had never seriously considered
+      or knew you wanted to learn?  If yes, which ones?  If no, why not?
+    </li>   
+    <li class='summary_line'>
+      How well do you feel your list represents your skills in each category?  Do you possess additional strong skills in each 
+      category that might not have been represented on the inventory?  If yes, mention what they are and add them to the 
+      "MY ASSESSMENT TABLE".
+    </li>   
+    <li class='summary_line'>
+      Review your "MY ASSESSMENT TABLE."  Look at the first line and read it across from left to right.  In the example on the 
+      previous page, it reads: "General Business-Items-Medium Current Skills-High Desire for Future Training."  Read your 5 lines 
+      to your group in the same manner. Then answer the following:
+    </li>   
+    </ol>
+    <ul style='list-style-type:none;'>
+    <li class='summary_line' style='padding-left:20;'>
+      a.  Do any of your lines contain "High Current Skills and Low Desire for Future Training"?  If so, what might that indicate?  
+      Might it indicate that your lack of desire to sharpen those skills could be due to a lack of interest? Or do you feel you 
+      have enough training? Discuss it with the group and be sure to follow up with your teacher/counselor to figure out its meaning.
+    </li> 
+    <li class='summary_line' style='padding-left:20;'>
+      b.  Look back at the skills in one of your categories.  How might the skills in the list fit or be impacted by your interest to work 
+      with IDEAS, INTERPERSONAL or ITEMS?
+    </li>
+    <li class='summary_line' style='padding-left:20;'>
+      c.  With your counselor/teacher be sure to review all of your highest skills and in ALL of your categories and think about how they 
+      link with your desire to work with IDEAS, ITEMS or INTERPERSONAL.
+    </li>
+    </ul>
+
+    </td></tr>
+</tbody></table>
+<br><br>
+
+{% endif %}
+
+</div>
+<br><br>
+</body>
+	
+{% include "footer.html" %}
+{% endblock %}

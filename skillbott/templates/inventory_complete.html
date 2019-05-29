@@ -1,0 +1,136 @@
+<table width="800" border="0" cellspacing="0" cellpadding="0"><tbody>
+
+  {% include "navigation.html" %}
+
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:0px;text-align:left;'>{{ inventory.tagline }}</td></tr>
+  <tr><td style='position:relative;left:20px;'>
+  <table><tbody>
+      <tr><td>
+
+      {% for category in categories %}
+      <tr>
+      <td class='left_column'></td>
+      <td style='padding-left:10px;padding-top:20px;padding-bottom:10px;' title='{{ category.hover }}'>
+          <span class='category_header'>{{ category.type }}</span>
+      </td>
+      <td></td>
+      {% if inventory.type == 'interests' %}
+      <td class='values_header'> Interest </td>
+      {% endif %}
+      {% if inventory.type == 'values' %}
+      <td class='values_header'> Yourself </td>
+      {% endif %}
+      {% if inventory.type == 'skills' %}
+      <td class='values_header'> Current </td>
+      {% endif %}
+      <td></td>
+      <td></td>
+      {% if inventory.type == 'skills' %}
+      <td class='values_header'> Future </td>
+      {% endif %}
+      {% if inventory.type == 'interests' %}
+      <td class='values_header'> Area </td>
+      {% endif %}
+      <td></td>
+      {% if inventory.type == 'values' %}
+      <td class='values_header'> Your Job </td>
+      {% endif %}
+      <td></td>
+      <td></td>
+      </tr>
+
+      {% for topic in category.topics.all %}
+      <tr>
+      <td class='left_column' id='{{ topic.id }}_questicon'></td>
+      <td class='topic' title='{{ topic.hover }}'
+          {% if inventory.type == 'skills' or inventory.type == 'values' %}
+              style='width:140px;'
+          {% endif %}
+          >{{ topic.name }}
+          {% if topic.name == 'Other' %}
+              <input type="text" size=15 name="other_{{ topic.id  }}" disabled="disabled"
+                  {% if other_answers %}
+                      value="{{ other_answers|lookup:topic.id }}"
+                  {% else %}
+                      value=""
+                  {% endif %}
+                  >
+              </input>
+          {% endif %}
+      </td>
+
+      {# initialize yellow radio buttons #}
+      {% for yellow_choice in inventory.yellow_choices.all %}
+          <td class='yellow_choice' id='{{ topic.id }}_yellowtd{{ forloop.counter }}'
+              style='width:{{ yellow_widths|lookup:forloop.counter0 }};'>
+          <input id='{{ topic.id }}_yellowbtn{{ forloop.counter }}' type="radio" name="yellow_{{ topic.id }}" 
+              value={{ forloop.counter0 }}
+          {% if yellow_answers %}
+              {% if yellow_answers|lookup:topic.id == forloop.counter0 %}
+              checked
+              {% endif %}
+          {% endif %}
+          >{{ yellow_choice.text }}</td>
+      {% endfor %}
+
+      {% if inventory.type == 'values' %}
+      <td class='topic' title='{{ topic.hover2 }}'
+              style='width:100px;'
+          >{{ topic.name2 }}
+       </td>
+      {% endif %}
+
+      {# initialize green radio buttons #}
+      {% for green_choice in inventory.green_choices.all %}
+          <td class='green_choice' id='{{ topic.id }}_greentd{{ forloop.counter }}'
+              style='width:{{ green_widths|lookup:forloop.counter0 }};'>
+          <input id='{{ topic.id  }}_greenbtn{{ forloop.counter }}' type="radio" name="green_{{ topic.id }}" 
+              value={{ forloop.counter }} disabled="disabled" onClick="borderGreen(false, {{ topic.id }})"
+          {% if green_answers %}
+              {% if green_answers|lookup:topic.id == forloop.counter %}
+              checked
+              {% endif %}
+          {% endif %}
+          >{{ green_choice.text }}</td>
+      {% endfor %}
+      </td>
+      </tr>
+
+      {# disable all buttons #}
+      <script type="text/javascript" language="JavaScript">
+          disableYellow(true, false, {{ topic.id }});
+          disableGreen(true, false, {{ topic.id }});
+      </script>
+
+      {% endfor %} {# topics loop #}
+
+      <tr>
+      <td class='left_column'></td>
+      <td class='topic' style='background:#FFFF84;color:black;border-style:solid;border-color:#000066;border-width:3px;'>
+      <span class='table_row'>Totals:</span>
+      </td>
+      <td class='yellow_choice' style='background:#FFFF84;text-align:center;'>
+          <span class='table_row'>{{ yellow_totals0|lookup:category.type }}</span></td>
+      <td class='yellow_choice' style='background:#FFFF84;text-align:center;'>
+          <span class='table_row'>{{ yellow_totals1|lookup:category.type }}</span></td>
+      <td class='yellow_choice' style='background:#FFFF84;text-align:center;'>
+          <span class='table_row'>{{ yellow_totals2|lookup:category.type }}</span></td>
+      {% if inventory.type == 'values' %}
+      <td class='topic' style='background:#8FFF6F;color:black;border-style:solid;border-color:#000066;border-width:3px;'>
+      <span class='table_row'>Totals:</span>
+      </td>
+      {% endif %}
+      <td class='green_choice' style='background:#8FFF6F;text-align:center;'>
+          <span class='table_row'>{{ green_totals1|lookup:category.type }}</span></td>
+      <td class='green_choice' style='background:#8FFF6F;text-align:center;'>
+          <span class='table_row'>{{ green_totals2|lookup:category.type }}</span></td>
+      <td class='green_choice' style='background:#8FFF6F;text-align:center;'>
+          <span class='table_row'>{{ green_totals3|lookup:category.type }}</span></td>
+      </tr>
+
+      {% endfor %} {# categories loop #}
+      </td></tr>
+  </tbody></table>
+  </td></tr>
+</tbody></table>
+<br><br>

@@ -1,0 +1,159 @@
+<table width="780" border="0" cellspacing="0" cellpadding="0"><tbody>
+  {% include "navigation.html" %}
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:20px;text-align:left;'>{{ inventory.tagline }}</td></tr>
+
+{% if complete == 0 and started == 0 %}
+  {% if inventory.type != 'interests' %}
+    <tr><td style='position:relative;left:20px;padding-bottom:20px;padding-left:40px;padding-right:40px;text-align:justify;text-align:left;'>{{ inventory.instructions }}</td></tr>
+  {% endif %}
+{% endif %}
+
+{% if inventory.type == 'interests' %}
+  <tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;padding-bottom:10px;'>
+  <h2><a href="{% url 'views.interests_instructions' %}" style='color:black;' target='_blank'>
+  Instructions</a></h2>
+  </td></tr>
+{% endif %}
+
+<tr><td style='position:relative;left:20px;padding-left:40px;padding-right:40px;text-align:justify;text-align:center;color:blue;'>
+Hovering the cursor over a topic will provide more detailed information.</td></tr>
+
+  <tr><td style='position:relative;left:20px;'>
+  <table><tbody>
+
+      <form action="{{ request.path_info }}" method="post">
+
+      <tr><td>
+      {% for category in categories %}
+      <tr>
+      <td class='left_column'></td>
+      <td style='padding-left:10px;padding-top:20px;padding-bottom:10px;' title='{{ category.hover }}'>
+          <span class='category_header'>{{ category.type }}</span>
+      </td>
+      <td></td>
+      {% if inventory.type == 'skills' %}
+      <td class='values_header'> Current </td>
+      {% endif %}
+      {% if inventory.type == 'interests' %}
+      <td class='values_header'> Interest </td>
+      {% endif %}
+      {% if inventory.type == 'values' %}
+      <td class='values_header'> Yourself </td>
+      {% endif %}
+      <td></td>
+      <td></td>
+      {% if inventory.type == 'skills' %}
+      <td class='values_header'> Future </td>
+      {% endif %}
+      {% if inventory.type == 'interests' %}
+      <td class='values_header'> Area </td>
+      {% endif %}
+      <td></td>
+      {% if inventory.type == 'values' %}
+      <td class='values_header'> Your Job </td>
+      {% endif %}
+      </tr>
+
+      {% for topic in category.topics.all %}
+      <tr>
+      <td class='left_column' id='{{ topic.id }}_questicon' 
+          {% if complete == 0 and started == 1 and yellow_answers|lookup:topic.id == -1 and topic.name != 'Other' %}
+              style="background-image:url('{{ MEDIA_URL }}images/quest1.png');"
+          {% endif %}
+          {% if topic.name == 'Other' and other_answers and other_answers|lookup:topic.id != '' and yellow_answers|lookup:topic.id == -1 %}
+              style="background-image:url('{{ MEDIA_URL }}images/quest1.png');"
+          {% endif %}
+      ></td>
+      <td class='topic' title='{{ topic.hover }}'
+          {% if inventory.type == 'skills' or inventory.type == 'values' %}
+              style='width:140px;'
+          {% endif %}
+          >{{ topic.name }}
+          {% if topic.name == 'Other' %}
+              <input type="text" size=15 name="other_{{ topic.id  }}" id="{{ topic.id }}_other"
+                  {% if other_answers %}
+                      value="{{ other_answers|lookup:topic.id }}"
+                  {% else %}
+                      value=""
+                  {% endif %}
+                  {% if yellow_answers and yellow_answers|lookup:topic.id == 0 %}
+                      disabled="disabled"
+                  {% endif %}
+                  >
+              </input>
+          {% endif %}
+      </td>
+
+      {# initialize yellow radio buttons #}
+      {% for yellow_choice in inventory.yellow_choices.all %}
+          <td class='yellow_choice' id='{{ topic.id }}_yellowtd{{ forloop.counter }}'
+              style='width:{{ yellow_widths|lookup:forloop.counter0 }};'>
+          <input id='{{ topic.id }}_yellowbtn{{ forloop.counter }}' type="radio" name="yellow_{{ topic.id }}" 
+              value={{ forloop.counter0 }}
+              {% if inventory.type == 'interests' %}
+                  onClick="disableGreen(!{{ forloop.counter0 }}, true, {{ topic.id }})"
+              {% endif %}
+              {% if inventory.type == 'values' and green_answers|lookup:topic.id != '-1' %}
+                  onClick="clearQuestIcon({{ topic.id }})"
+              {% endif %}
+              {% if yellow_answers and yellow_answers|lookup:topic.id == forloop.counter0 %}
+              checked
+              {% endif %}
+          >{{ yellow_choice.text }}</td>
+      {% endfor %}
+
+      {% if inventory.type == 'values' %}
+      <td class='topic' title='{{ topic.hover2 }}'
+              style='width:100px;'
+          >{{ topic.name2 }}
+       </td>
+      {% endif %}
+
+      {# initialize green radio buttons #}
+      {% for green_choice in inventory.green_choices.all %}
+          <td class='green_choice' id='{{ topic.id }}_greentd{{ forloop.counter }}'
+              style='width:{{ green_widths|lookup:forloop.counter0 }};'>
+          <input id='{{ topic.id  }}_greenbtn{{ forloop.counter }}' type="radio" name="green_{{ topic.id }}" 
+              value={{ forloop.counter }}
+              {% if inventory.type == 'interests' %}
+                  disabled="disabled" onClick="borderGreen(false, {{ topic.id }})"
+              {% endif %}
+              {% if inventory.type == 'values' and yellow_answers|lookup:topic.id != '-1' %}
+                  onClick="clearQuestIcon({{ topic.id }})"
+              {% endif %}
+              {% if green_answers and green_answers|lookup:topic.id == forloop.counter %}
+                  checked
+              {% endif %}
+          >{{ green_choice.text }}</td>
+      {% endfor %}
+
+      </td>
+      </tr>
+
+      {% if yellow_answers and inventory.type == 'interests' %}
+          {% if yellow_answers|lookup:topic.id == -1 %}
+              <script type="text/javascript" language="JavaScript">
+                  disableGreen(true, false, {{ topic.id }});
+              </script>
+          {% else %}
+              <script type="text/javascript" language="JavaScript">
+                  disableGreen(false, false, {{ topic.id }});
+              </script>
+          {% endif %}
+      {% endif %}
+      {% endfor %} {# topics loop #}
+      {% endfor %} {# categories loop #}
+      </td></tr>
+
+      <tr>
+      <td class='left_column'></td>
+      <td style='padding:15px;text-align:left;'>
+          <input type="submit" value="Submit Answers" style='text-align:left;padding-left:5px;margin-bottom:5px;width:110px;'><br>
+          <input type="reset"></input>
+      </td></tr>
+
+      </form>
+
+  </tbody></table>
+  </td></tr>
+</tbody></table>

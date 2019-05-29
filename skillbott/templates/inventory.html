@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% include "header.html" %}
+
+{% load filters %}
+
+<script type="text/javascript" src="{{ MEDIA_URL }}js/assess.js"></script>
+
+{% if inventory %}
+
+{% if complete == 0 and started == 1 %}
+    <br><h2 style='color:red;text-align:center;padding-left:40px;padding-right:40px;'>
+    Please complete all of the topics which indicated by the question icon.
+{% if inventory.type == 'interests' %}
+    <br>For all yellow answers of 'Maybe' or 'Yes' - the green answers must be completed.</h2><br>
+{% else %}
+    <br>Remember that all of the yellow and green answers must be completed.</h2><br>
+{% endif %}
+{% endif %}
+
+{% if complete %}
+{% include "inventory_complete.html" %}
+{% else %}
+{% include "inventory_pending.html" %}
+{% endif %}
+
+{% endif %}
+
+</div>
+<br><br>
+</body>
+
+{% include "footer.html" %}
+{% endblock %}

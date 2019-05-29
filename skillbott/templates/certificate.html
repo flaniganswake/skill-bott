@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<body style='margin-left:35px;margin-top:45px;'>
+<div align='center' style='padding:30px;background:#E8E8E8;width:560px;height:380px;margin:auto;
+                           border-style:double;border-color:black;border-width:6px;
+                           z-index:2;'>
+
+<div id='skillbot_header'><img src="{{ MEDIA_URL }}images/SkillBottHiResFinal.png" style='width:300px;height:80px;'></img></div>
+
+<div style='position:relative;left:0px;top:-30px;z-index:4;width:480px;height:270px;text-align:center;'>
+
+<p style="font-family:'Times';font-size:22pt;font-weight:normal;text-align:center;margin-bottom:5px;padding-top:15px;">Career Objectives</p>
+
+<p style="font-family:'Times';font-size:12pt;font-weight:normal;text-align:center;margin-top:0px;">of</p>
+
+<p style="font-family:'Times';font-size:16pt;font-weight:normal;text-align:center;margin-top:20px;">{{ user.first_name }} {{user.last_name }}</p>
+
+<p style="font-family:'Times';font-size:11pt;font-weight:normal;text-align:center;margin-top:0px;">Developed this {{ completion_date }}</p>
+
+<p style="font-family:'Times';font-size:10pt;font-weight:normal;text-align:center;margin-top:0px;">
+{{ wrapup }}
+</p>
+
+</div>
+</div>
+
+<br>
+<div class='print' style='text-align:center;margin-bottom:40px;margin-top:20px'>
+<form><input type="button" value=" Print Your Certificate" style='height:30px;font-weight:bold;' 
+onclick="window.print();return false;" /></form>
+</div>
+
+</body>
+		
+{% endblock %}
+
+

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div align='left' style='margin-left:35px;margin-top:35px;padding-bottom:25px;padding-top:20px;padding-left:20px;background:#E8E8E8;width:300px;
+                         border-style:double;border-color:black;border-width:6px;'>
+
+{% if form.errors %}
+<p class="error">Your username and password didn't match. Please try again.</p>
+{% endif %}
+<h1>Log In</h1>
+<p>If you haven't signed up yet, <a href="/accounts/register/" style='color:red;'>sign up now!</a></p>
+
+<form method="post" class="user" action="{% url 'django.contrib.auth.views.login' %}">
+{% csrf_token %}
+<table>
+<tr>
+    <td>{{ form.username.label_tag }}</td>
+    <td>{{ form.username }}</td>
+</tr>
+<tr>
+    <td>{{ form.password.label_tag }}</td>
+    <td>{{ form.password }}</td>
+</tr>
+</table>
+
+<input type="submit" value="login"/>
+<input type="hidden" name="next" value="{{ next }}" />
+</form>
+
+<p><a href="{% url 'django.contrib.auth.views.password_reset' %}" style='color:red;'>Forgot your password?</a></p>
+
+</div>
+
+{% endblock %}

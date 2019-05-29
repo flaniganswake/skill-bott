@@ -1,0 +1,203 @@
+[inventory]
+interests
+[title]
+INTERESTS & ADORATIONS
+[tagline]
+Curiosities you possess regarding your surroundings.
+[description]
+This Interests & Adorations assessment will indicate what categories interest you most. You will answer a series of questions which will yield a yellow choice denoting your level of interest. Then you will mark a green answer which shows the type of interest you have for each category. 
+[instructions]
+First - complete the YELLOW column by selecting the choice that corresponds to your answer:  'No' = You have NO interest in the job in the left column; 'Maybe' = You MIGHT have an interest or a SLIGHT interest; and 'Yes' = You ARE interested in the job from the first column.  Second - complete the GREEN column if your answer from the YELLOW column was 'Maybe' or 'Yes.'  When completing the GREEN column, select 'Items' if you are interested in or like working with ITEMS or THINGS; select 'Interpersonal' if you like working with PEOPLE or INTERPERSONAL related tasks; and select 'Ideas/Info' if you like or are interested in working with 'Items', 'Interpersonal' or 'Ideas/Info.'  It is also important to remember that when you are selecting an interest or like, related to 'Items', 'Interpersonal' or 'Ideas/Info', that you consider it as it is related to the job in the first column.  For example - under 'General Business', lets say you chose 'Yes' in the YELLOW column for 'Sales.'  That means your next step is to select a choice in the GREEN column and decide if you would most like to work with 'Items' or 'Interpersonal' or 'Ideas/Info' in a 'Sales' related job. If you would like to add a topic for 'Other' - enter your topic and select a YELLOW and or GREEN value as well.  
+[choices]
+No[hover]No interest at all.;Maybe[hover]I have some interest.;Yes[hover]Yes - I am interested. 
+Items[hover]Items or things.;Interpersonal[hover]Interpersonal relations.;Info/Ideas[hover]Informations and Ideas.
+[category]
+GENERAL BUSINESS[hover]Any area in business or commerce where goods/services are exchanged; such as marketing, advertising, sales, management, accounting, customer service, etc.
+[topics]
+Selling[hover]Promoting goods or services to potential customers in exchange for money.
+Management/Leadership[hover]Directing or supervising people in the workplace.
+Entrepreneur/Business Owner[hover]Someone who exercises initiative by organizing a venture to take benefit of an opportunity and, as the decision maker, decides what, how, and how much of a good or service will be produced.
+Organizational Systems[hover]Organizational studies, organizational behavior, and organizational theory is the systematic study and careful application of knowledge about how people - as individuals and as groups - act within organizations.
+Negotiator[hover]To confer with another or others in order to come to terms or reach an agreement.
+Marketing[hover]The management process through which goods and services move from concept to the customer.
+Other[hover]Please insert a GENERAL BUSINESS interest that was not offered in this list.
+[category]
+CREATIVE ARTS[hover]Any field or discipline that involves any of the following creative expressions through artwork, Painting, Drawing, Sculpting, Dancing, Writing, etc.
+[topics]
+Painting[hover]The process, art, or occupation of coating surfaces with paint for a utilitarian or artistic effect.
+Sculpting[hover]Create or represent (something) by carving, casting, or other shaping techniques.
+Drawing[hover]The art of representing objects or forms on a surface chiefly by means of lines.
+Computer Graphics[hover]The set of technologies used to create art with computers.
+Fashion[hover]Creatively creating new clothing styles.
+Advertising[hover]The activity or profession of producing advertisements for commercial products or services.
+Other[hover]Please insert a CREATIVE ARTS interest that was not offered in this list.
+[category]
+PERFORMING ARTS[hover]Any field or discipline that involves any of these expressions through movement: Singing, Dancing, Acting, etc.
+[topics]
+Singing[hover]Singing is the act of producing musical sounds with the voice.
+Dancing[hover]To move rhythmically usually to music, using prescribed or improvised steps and gestures.
+Acting[hover]The art or practice of representing a character on a stage or before cameras.
+Theatre[hover]Theatre is a collaborative form of fine art that uses live performers to present the experience of a real or imagined event before a live audience in a specific place.
+Movies[hover]A story or event recorded by a camera as a set of moving images and shown in a theater or on television; a motion picture.
+Playing Instruments[hover]A musical instrument can be broadly defined as any device created or adapted for the purpose of making musical sounds.
+Other[hover]Please insert a PERFORMING ARTS interest that was not offered in this list.
+[category]
+PHYSICAL SCIENCES[hover]Any field or discipline that involves the 'hard' sciences, such as: Biology, Chemistry, Physics, Medicine, etc.
+[topics]
+Physics[hover]Includes mechanics, heat, light and other radiation, sound, electricity, magnetism, and the structure of atoms.
+Chemistry[hover]The science of the composition, structure, properties, and reactions of matter, especially of atomic and molecular systems.
+Medicine (human/veterinary)[hover]The science of diagnosing, treating, or preventing disease and other damage to the body or mind.
+Biology[hover]The science of life or living matter in all its forms and phenomena, especially with reference to origin, growth, reproduction, and structure of a cell or organism.
+Astronomy[hover]The science that deals with the material universe beyond the earth's atmosphere.
+Geology[hover]The scientific study of the origin, history, and structure of the earth.
+Other[hover]Please insert a PHYSICAL SCIENCES interest that was not offered in this list.
+[category]
+SOFT SCIENCES[hover]Any field or discipline that includes the study of individual human and societal behaviors.
+[topics]
+Anthropology[hover]The science that deals with the origins, physical and cultural development, biological characteristics, and social customs of humans throughout history.
+Sociology[hover]The study of human social behavior, especially the study of the origins, organization, institutions, and development of human society.
+Psychology[hover]The study of mind and behavior in relation to human growth, development and interactions/relationships.
+Humanities[hover]All literature, fine arts, philosophy, and history consist of the expression of humans as a group.
+Philosophy[hover]The rational investigation of the truths and principles of being, knowledge, or conduct.
+History[hover]A chronological record of significant events (as affecting a nation or institution) often including an explanation of their causes.
+Other[hover]Please insert a SOFT SCIENCES interest that was not offered in this list.
+[category]
+TECHNOLOGY[hover]Any field or discipline that involves the application of science, especially to industrial or commercial objectives.
+[topics]
+Information Systems[hover]Information Systems (or IS) is historically defined as a 'bridge' anchored between the business world and computer science.
+Computer Programmer[hover]A person who designs and writes and tests computer programs.
+Technician (electrical)[hover]One whose occupation is the installation, maintenance, repair, or operation of electric equipment.
+Web Designer[hover]Web design is the skill of creating presentations of content (usually hypertext or hypermedia) that is delivered to an end-user through the World Wide Web, by way of a Web browser or other Web-enabled software like Internet television clients, microblogging clients and RSS readers.
+Software Developer/Writer[hover]Is a profession dedicated to designing, implementing, and modifying software so that it is of higher quality, more affordable, maintainable, and faster to build.
+Engineer[hover]Someone in the branch of science and technology concerned with the design, building, and use of engines, machines, and structures.
+Other[hover]Please insert a TECHNOLOGY interest that was not offered in this list.
+[category]
+TOOLS[hover]Any field or discipline that involves using a device or implement, especially one held in the hand, used to carry out a particular function. 
+[topics]
+Construction[hover]The art, trade, or work of building something.
+Mechanic[hover]A worker skilled in making, using, or repairing machines, vehicles, and tools.
+Landscaping[hover]Improve the aesthetic appearance of (a piece of land) by changing its contours, adding ornamental features and plantings. 
+Forestry[hover]The science or practice of planting, managing, and caring for forests.
+Carpentry[hover]The activity or occupation of making or repairing things in wood.
+Laborer[hover]A person doing unskilled manual work for wages.
+Other[hover]Please insert a TOOLS interest that was not offered in this list.
+[category]
+TRANSPORTATION[hover]Any field or discipline that involves a system or means of transporting people or goods. 
+[topics]
+Trucking[hover]Any of various heavy motor vehicles designed for carrying or pulling loads.
+Airlines[hover]Commercial travel via aircraft.
+Automotive[hover]The automotive industry designs, develops, manufactures, markets, and sells the world's motor vehicles.
+Boating/Shipping[hover]Transportation of passengers and goods on waterways.
+Railroad[hover]A shipping industry that involves cars or equipment drawn by locomotives or propelled by self-contained motors.
+Import/Export[hover]Import is when you buy something from another country and have it shipped to your homeland.  Export is the process of another country buying your home countries goods thus requiring you to ship the goods to them.
+Other[hover]Please insert a TRANSPORTATION interest that was not offered in this list.
+[category]
+LEISURE[hover]Any field or discipline that involves  a segment of the economy covering entertainment, recreation, and tourism related products and services
+[topics]
+Travel Industry[hover]Tourism is travel for recreational, leisure or business purposes.
+Hotels/Motels[hover]A commercially run establishment providing lodging and usually meals for guests.
+Hospitality Management[hover]The general objective of hospitality management jobs is to administer the day-to-day financial, personnel and customer service operations of a hotel, resort, spa, lodge, inn or other accommodation.
+Food Service/Catering[hover]Provide food and drink, typically at social events and in a professional capacity.
+Sports/Athletics[hover]Physical activity that is governed by a set of rules or customs and often engaged in competitively.
+Adventure/Outdoors[hover]The act of engaging in recreational activities, that are typically associated with outdoor, natural or semi-natural settings or that depend specifically outdoor, natural or semi-natural settings.
+Other[hover]Please insert a LEISURE interest that was not offered in this list.
+[category]
+HUMAN SERVICES[hover]Any field or discipline that involves a human service practitioner who acts as an agent to assist and or empower individuals.
+[topics]
+Counseling[hover]The provision of assistance and guidance in resolving personal, social, or psychological problems and difficulties, esp. by a trained person on a professional basis.
+Teaching[hover]Ideas or principles taught by an authority.
+Social Welfare[hover]Organized public or private social services for the assistance of disadvantaged groups.
+Religion/Theology[hover]The study of the nature of God and religious truth; rational inquiry into religious questions.
+Anti-Cruelty (animals)[hover]Upholding the rights believed to belong to animals to live free from use in medical research, hunting, and other services to humans.
+Politics[hover]The art or science of government or governing, especially the governing of a political entity, such as a nation, and the administration and control of a group of people or an organization.
+Other[hover]Please insert a HUMAN SERVICES interest that was not offered in this list.
+[category]
+MEDIA[hover]Any field or discipline that involves communication channels through which news, entertainment, education, data, or promotional messages are disseminated.
+[topics]
+Writing/Journalism[hover]The activity or profession of writing for newspapers or magazines or of broadcasting news on radio or television.
+Radio[hover]The "radio industry" is a generic term for any companies or public service providers who are involved with the broadcast of radio stations or other services. 
+TV[hover]The industry of producing and broadcasting television programs.
+Internet[hover]Any form of creative writing, advertising efforts, technical development, infrastructure maintenance, or promotional development of the world wide web.
+Podcast[hover]An audio broadcast that has been converted to MP3 or other audio file format for playback on a digital music player.
+Telephony[hover]Telephony is the technology associated with the electronic transmission of voice, fax, or other other information between distant parties using systems historically associated with the telephone, a handheld device containing both a speaker or transmitter and a receiver.
+Other[hover]Please insert a MEDIA interest that was not offered in this list.
+[category]
+COMMUNICATION[hover]Any field or discipline that involves the transmission of information by various means, such as print or broadcasting.
+[topics]
+Language Arts[hover]The study of grammar, composition, spelling, and (sometimes) public speaking.
+Multi-Lingual Communication[hover]Using or knowing more than one language.
+Speech[hover]Training to help people with speech and language problems to speak more clearly.
+Discussion/Debate[hover]A formal discussion on a particular topic in a public meeting or legislative assembly, in which opposing arguments are put forward.
+Linguistics[hover]The scientific study of language and its structure, including the study of morphology, syntax, phonetics, and semantics.
+Interpreter[hover]One who translates orally for parties conversing in different languages.
+Other[hover]Please insert a COMMUNICATION interest that was not offered in this list.
+[category]
+NUMBERS[hover]Any field or discipline that exclusively involves the use of numbers.
+[topics]
+Math[hover]A complex subject, encompassing everything from simple addition to calculus.
+Statistics[hover]The mathematics of the collection, organization, and interpretation of numerical data.
+Accounting[hover]The systematic recording, reporting, and analysis of financial transactions of a business.
+Finance[hover]The management of large amounts of money, especially by governments or large companies
+Banking[hover]A network of commercial, savings, and specialized banks that provide financial services, including accepting deposits and making loans.
+Research[hover]A studious inquiry or examination, investigation or experimentation aimed at the discovery and interpretation of facts.
+Other[hover]Please insert a NUMBERS interest that was not offered in this list.
+[category]
+AGRICULTURE[hover]Any field or discipline that involves the science or practice of farming, including cultivation of the soil for the growing of crops and the rearing of animals to provide food, wool, and other products.
+[topics]
+Botany[hover]The study of plant life of a particular region, habitat, or geological period.
+Hydrology[hover]The branch of science concerned with the properties of the earth's water, especially its movement in relation to land. 
+Farming[hover]The activity or business of growing crops and raising livestock.
+World Food Supplies[hover]The study of the origins of the concept of chronic food insecurity, the implications for measurement, and suggests the need for a complementary investigation into the implications for transitory food insecurity of trade liberalization.
+Livestock[hover]Domestic animals, such as cattle or horses, raised for home use or for profit, especially on a farm.
+Genetic Research[hover]Genetic engineering, recombinant DNA technology, genetic modification/manipulation (GM) and gene splicing are terms that apply to the direct manipulation of an organism's genes.
+Other[hover]Please insert a AGRICULTURE interest that was not offered in this list.
+[category]
+GOVERNMENT[hover]Any field or discipline that involves the political direction and control exercised over the actions of the members, citizens or inhabitants of communities, societies or organizations.
+[topics]
+Civic Leadership[hover]A person who rules or guides or inspires others within his/her home town or community. 
+Public Speaking[hover]Is the process of speaking to a group of people in a structured, deliberate manner intended to inform, influence or entertain the listeners.
+Political Debates[hover]Political debate is a broader form of argument than logical argument, which only examines consistency from axiom, and factual argument, which only examines what is or isn't the case or rhetoric which is a techique of political maneuvering.
+US History[hover]Studying and relating current issues or challenges to instances from our nation's past.
+Law[hover]The system of rules that a particular country or community recognizes as regulating the actions of its members and may enforce by the imposition of penalties.
+Psychology[hover]The study of mind and behavior in relation to human growth, development and interactions/relationships.
+Other[hover]Please insert a GOVERNMENT interest that was not offered in this list.
+[category]
+HEALTH[hover]Any field or discipline that involves the maintenance and improvement of physical and mental health, especially through the provision of medical services.
+[topics]
+Anatomy[hover]The branch of science concerned with the bodily structure of humans, animals, and other organisms, esp. as revealed by dissection.
+Physiology[hover]The branch of biology that deals with the normal functions of living organisms and their parts.
+Chemistry[hover]The science of the composition, structure, properties, and reactions of matter, especially of atomic and molecular systems.
+Technology[hover]Is defined as prevention and rehabilitation, vaccines, pharmaceuticals, and devices, medical and surgical procedures, and the systems within which health is protected and maintained.
+Nursing[hover]The profession or practice of providing care for the sick and infirm.
+Patient Care[hover]The person is most often ill or injured and in need of treatment by a physician or other health care professional, although one who is visiting a physician for a routine check-up may also be viewed as a patient.
+Other[hover]Please insert a HEALTH interest that was not offered in this list.
+[category]
+LAW[hover]The system of rules that a particular country or community recognizes as regulating the actions of its members and may enforce by the imposition of penalties.
+[topics]
+Politics[hover]The art or science of government or governing, especially the governing of a political entity, such as a nation, and the administration and control of a group or organization.
+Policies & Procedures[hover]Are a set of documents that describe an organization's policies for operation and the procedures necessary to fulfill the policies.
+Argument[hover]A reason or set of reasons given with the aim of persuading others that an action or idea is right or wrong.
+Helping Victims[hover]Assisting others who might have been wronged so they can receive compensation or some other form of restitution.
+Social Issues[hover]Social issues are matters which directly or indirectly affect many or all members of a society and are considered to be problems, controversies related to moral values, or both.
+Providing Guidance[hover]Advice or information aimed at resolving a problem or difficulty, especially as given by someone in authority.
+Other[hover]Please insert a LAW interest that was not offered in this list.
+[category]
+MANUFACTURING[hover]Any field or discipline that involves the process of converting raw materials, components , or  parts into finished goods that meet a customer's expectations.
+[topics]
+Assembling Items[hover]Workers, machines, and equipment in which the product being assembled passes consecutively from operation to operation until completed.
+Creating Products[hover]The act of one who makes; workmanship; fabrication; construction.
+Distribution of Goods[hover]The movement of goods and services from the source through a distribution channel, right up to the final customer.
+Factory Work[hover]Assembly jobs located in a  building or group of buildings containing a plant assembly for the manufacture of goods.
+Mass Production Management[hover]Are responsible for ensuring that plant operations meet organizational goals in a safe and efficient manner.
+Quality Control Management[hover]A system of maintaining standards in manufactured products by testing samples.
+Other[hover]Please insert a MANUFACTURING interest that was not offered in this list.
+[category]
+RETAIL[hover]Any field or discipline that involves the sale of goods to end users, not for resale, but for use and consumption by the purchaser.
+[topics]
+Customer Service[hover]The provision of service to customers before, during and after a purchase.
+Merchandising[hover]The activity of promoting the sale of goods at retail.
+Store Management[hover]A store manager is the person ultimately responsible for the day-to-day operations (or management) of a retail store.
+Personnel Hiring[hover]The practice of finding, evaluating, and establishing a working relationship with future employees.
+Product Branding[hover]Is the discipline of deciding what a product will be called, and is very similar in concept and approach to the process of deciding on a name for a company or organization.
+Sales Promotions[hover]An activity designed to boost the sales of a product or service.
+Other[hover]Please insert a RETAIL interest that was not offered in this list.

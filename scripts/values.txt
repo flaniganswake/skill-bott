@@ -1,0 +1,451 @@
+[inventory]
+values
+[title]
+VALUES & NEEDS
+[tagline]
+Values & Needs are personal treasures that enhance your life.  They are MUST HAVE'S that you cannot live without.  And it has been said that when you are true to your values, you are in harmony with yourself.
+[description]
+Values & Needs are personal treasures that enhance your life.  They are MUST HAVE'S that you cannot live without.  And it has been said that when you are true to your values, you are in harmony with yourself.
+[instructions]
+First, rank each value for YOURSELF (YELLOW) is a PERSONAL trait you want to have . Then, rank each value for YOUR JOB (GREEN) which is a characteristic of a JOB that you want.  Remember, 'No' = You DO NOT Need or Value It; 'Maybe' = It Would Be Nice to Have It; and 'Must' = You MUST Have It.    
+[choices]
+No;Maybe;Must
+No;Maybe;Must
+[category]
+GENERAL BUSINESS[hover]Any area in business or commerce where goods/services are exchanged; such as marketing, advertising, sales, management, accounting, customer service, etc.
+[topics]
+Morality[hover]Ethical, Trustworthy
+Pressure[hover]High Stress, Tension
+Toughness[hover]Strong and Stern
+Structure[hover]Organized & Predictable
+Ambitiousness[hover]Set Lofty Goals
+Travel[hover]Frequent Business Trips
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Money[hover]High Salary
+Respected[hover]Others value your skills.
+Growth[hover]Continued improvement.
+Stability[hover]Very little change in your life.
+Help Others[hover]Improve the lives of your customers/clients.
+Unsupervised[hover]Work without a boss telling you what to do every minute of the day.
+Fast Paced[hover]Lots of action with lots of variety and a deadline to meet.
+Powerful[hover]A very influential person everyone admires.
+Recognition[hover]Acknowledged for your hard work with awards, honors, praise, or even bonuses.
+Work/Life Balance[hover]Working a minimum number of hours so it doesn't interfere with your hobbies, free time or time with your family/friends.
+Variety[hover]A different duty/task every day. Never the same day twice.
+Leadership[hover]Being the person everyone looks to for direction.
+Company Size[hover]The number of employees, the number of offices or the number of locations a company has.
+[category]
+CREATIVE ARTS[hover]Drawing, painting, sculpting, designing, crafting, or any other outlet such as creative writing (poetry)
+[topics]
+Inspirational[hover]Find a deep motivation and a greater sense of meaning or purpose from your work.
+Please People[hover]Make your customers/clients/co-workers feel happy & satisfied.
+Inner Harmony[hover]Feeling at ease and at peace with yourself and your life.
+Personal Freedom[hover]The ability to be your own boss and control your work hours, your tasks, etc.
+Uninhibited[hover]Living life with free flowing thoughts, independent beliefs and unrestrained behaviors.
+Slow Pace[hover]Relaxed work environment with zero stress.
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Money[hover]High Salary
+Inventiveness[hover]Clever ideas, Ingenuity, Innovative thinking that creates inventions.
+Stability[hover]Very little change in your daily tasks, job description, career path, etc.  You find a 'comfortable' situation and you stick with it.
+Productivity[hover]Completing tasks and reaching goals.
+Interact with People[hover]Constant connections with people instead of working alone.
+Unsupervised[hover]You are self-motivated and self-directed.
+Structured[hover]Organized & Predictable
+Use Natural Talents[hover]Creative talents are usually acquired from birth and are not always learned.  
+Recognition[hover]Acknowledged for your hard work with awards, honors, praise, or even bonuses.
+Problem Solver[hover]Ability to creatively look at a problem from many different perspectives to find a unique solution.
+Variety[hover]A different duty/task every day.  Never the same day twice.	
+Abstract Expressions[hover]The highest form of creative art that leaves the interpretation of it to ones imagination. Think of Picasso's paintings as an example.
+Make Practical Items[hover]The opposite of abstract art, practical items are products you can touch and use in your everyday life, like a toothbrush or a shoelace.
+[category]
+PERFORMING ARTS[hover]Art that is depicted or represented by acting, dancing, singing, playing a musical instrument, or any other form of physical expression.
+[topics]
+Inspirational[hover]Find a deep motivation and a greater sense of meaning or purpose from your work.
+Please People[hover]Make your customers/clients/co-workers feel happy & satisfied.
+Inner Harmony[hover]Feeling at ease and at peace with yourself and your life.
+Schedules/Structure[hover]Every minute of your day is written on a calendar to ensure your meetings/commitments are organized.
+Uninhibited[hover]Living life with free flowing thoughts, independent beliefs and unrestrained behaviors.
+Fast Pace[hover]Lots of action with lots of variety and a deadline to meet.
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Money[hover]High Salary
+Free Form[hover]Fluid movements and free flowing thoughts without the restrictions of rules, regulations and boundaries.
+Travel[hover]Frequent Business Trips
+Entertaining[hover]Occupying peoples' time and engaging them with your creative skills.
+Interact with People[hover]Constant contact with clients/customers/co-workers.
+Popularity[hover]Being the center of attention and the person 'everyone knows.'
+Structured[hover]Organized & Predictable
+Use Natural Talents[hover]Creative talents are usually acquired from birth and are not always learned.  
+Recognition[hover]Acknowledged for your hard work with awards, honors, praise, or even bonuses.
+Motivated[hover]You have inner-drive and determination to keep you on track towards your goals.
+Variety[hover]A different duty/task every day. Never the same day twice.
+Abstract Expressions[hover]The highest form of creative art that leaves the interpretation of it to one's imagination.  Think of Picasso's paintings as an example.
+Crowds of People[hover]Large groups or  teams or large audiences.
+[category]
+PHYSICAL SCIENCES[hover]Any of the sciences which include chemistry, biology, physics, botany, geology, astronomy, etc.
+[topics]
+Problem Solver[hover]Ability to use facts and data to look at a problem from many different perspectives to find a proven solution.
+Complex Problems[hover]Difficult situations that have multiple causes, multiple issues and possibly multiple solutions.
+Independent[hover]You are self-motivated and self-directed.
+Schedules/Structure[hover]Every minute of your day is written on a calendar to ensure your meetings/commitments are organized.
+Mentally Stimulated[hover]Your intellectual curiosities are challenged by difficult tasks that require a lot of thinking, problem solving, reading, researching and calculating.
+Fast Pace[hover]Lots of action with lots of variety and a deadline to meet.
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Stability[hover]Very little change in your daily tasks, job description, career path, etc.  You find a 'comfortable' situation and you stick with it.
+Toughness[hover]Strong and Stern
+Travel[hover]Frequent Business Trips
+Practical[hover]'Down to Earth' and No-nonsense mentality.
+Continuous Learning[hover]Every day presents new discoveries on the job and on occasion, through  formal training.
+Influential[hover]Others seek and value your opinion and your status/respect sways their decisions.
+Structured[hover]Organized & Predictable
+Conceptual[hover]You can easily visualize images of your ideas or long term plans.  You're a 'visionary.'
+Recognition[hover]Acknowledged for your hard work with awards, honors, praise or even bonuses.
+Curiosity[hover]An internal urge to learn, explore and discover.
+Variety[hover]A different duty/task every day.  Never the same day twice.
+Discovery[hover]Learning something you or perhaps even others had not known.
+Interact with People[hover]Constant contact with clients/customers/co-workers.
+[category]
+SOFT SCIENCES[hover]Sociology, anthropology, psychology, political science, etc.  The study of humans and society.
+[topics]
+Problem Solver[hover]Ability to use facts and data to look at a problem from many different perspectives to find a proven solution.
+Complex Problems[hover]Difficult situations that have multiple causes, multiple issues and possibly multiple solutions.
+Independent[hover]You are self-motivated and self-directed.
+Help Others[hover]Improve the lives of your customers/clients.
+Mentally Stimulated[hover]Your intellectual curiosities are challenged by difficult tasks that require a lot of thinking, problem solving, reading, researching and calculating.
+Fast Pace[hover]Lots of action with lots of variety and a deadline to meet.
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Stability[hover]Very little change in your daily tasks, job description, career path, etc.  You find a 'comfortable' situation and you stick with it.
+Nurturing[hover]Very caring and concerned about the well-being of others.
+Philanthropic[hover]A giving person or organization which donates and asks for nothing in return.
+Practical[hover]'Down to Earth' and No-nonsense mentality.
+Continuous Learning[hover]Every day presents new discoveries on the job and on occasion, through  formal training.
+Influential[hover]Others seek and value your opinion and your status/respect sways their decisions.
+Structured[hover]Organized & Predictable
+Feel Useful[hover]You have the sense that other people need you and value everything you do for them.
+Recognition[hover]Acknowledged for your hard work with awards, honors, praise or even bonuses.
+Ethical[hover]Follow and abide by established rules and laws.
+Variety[hover]A different duty/task every day.  Never the same day twice.
+Discovery[hover]Learning something you or perhaps even others had not known.
+Interact with People[hover]Constant contact with clients/customers/co-workers.
+[category]
+TECHNOLOGY[hover]Fields such as computer science, data management systems, wireless communications, nano-technology, etc.  Anything that uses electricity and computer chips to provide a good or service for a customer/user.
+[topics]
+Problem Solver[hover]Ability to use facts and data to look at a problem from many different perspectives to find a proven solution.
+Complex Problems[hover]Difficult situations that have multiple causes, multiple issues and possibly multiple solutions.
+Independent[hover]You are self-motivated and self-directed.
+Money[hover]High Salary
+Mentally Stimulated[hover]Your intellectual curiosities are challenged by difficult tasks that require a lot of thinking, problem solving, reading, researching and calculating.
+Fast Pace[hover]Lots of action with lots of variety and a deadline to meet.
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Stability[hover]Very little change in your daily tasks, job description, career path, etc.  You find a 'comfortable' situation and you stick with it.
+Factual[hover]Driven by numbers, data and other quantitative forms of the 'truth.'
+Supportive[hover]Provides resources such as funding, materials, personnel or even emotional support for your projects/initiatives.
+Practical[hover]'Down to Earth' and No-nonsense mentality.
+Continuous Learning[hover]Every day presents new discoveries on the job and on occasion, through  formal training.
+Influential[hover]Others seek and value your opinion and your status/respect sways their decisions.
+Structured[hover]Organized & Predictable
+Inventive[hover]You are innovative and are able to invent new 'things' with your unique ideas.
+Pressure[hover]A tense feeling of strain brought about by upcoming deadlines or nearly impossible tasks that have high risk and high rewards.
+Helpful[hover]You assist others willingly and sometimes without being asked.
+Variety[hover]A different duty/task every day.  Never the same day twice.
+Discovery[hover]Learning something you or perhaps even others had not known.
+Interact with People[hover]Constant contact with clients/customers/co-workers.
+[category]
+TOOLS[hover]Working with your hands, with machines, or using tools with your hands to work on machines. 
+[topics]
+Hard Worker[hover]You like giving 100% each day and you don't mind working overtime to get a job done.
+Outdoors[hover]No offices or stuffy cubicles for you!
+Independent[hover]You are self-motivated and self-directed.
+Money[hover]High Salary
+Toughness[hover]Strong and Stern
+Fast Pace[hover]Lots of action with lots of variety and a deadline to meet.
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Stability[hover]Very little change in your daily tasks, job description, career path, etc.  You find a 'comfortable' situation and you stick with it.
+Industrious[hover]Diligent, constantly occupied with a project.
+Service[hover]Provides a craft or a trade to its customers.
+Practical[hover]'Down to Earth' and No-nonsense mentality.
+Satisfaction[hover]A feeling of a job well done each time a project is completed.  Widespread customer gratification.
+Dependable[hover]Trustworthy and reliable.
+Structured[hover]Organized & Predictable
+Leadership[hover]Being the person everyone looks to for direction.
+Pressure[hover]A tense feeling of strain brought about by upcoming deadlines or nearly impossible tasks that have high risk and high rewards.
+Helpful[hover]You assist others willingly and sometimes without being asked.
+Variety[hover]A different duty/task every day.  Never the same day twice.
+Expend Energy[hover]You like sweating and working to the point of physical exhaustion.
+Interact with People[hover]Constant contact with clients/customers/co-workers.
+[category]
+TRANSPORTATION[hover]Industries that include commercial airlines, automobiles, highways and roads, light rail systems, high speed trains, etc. 
+[topics]
+Coordinated[hover]You can work on two or more tasks simultaneously.
+Outdoors[hover]No offices or stuffy cubicles for you!
+Independent[hover]You are self-motivated and self-directed.
+Money[hover]High Salary
+Toughness[hover]Strong and Stern
+Fast Pace[hover]Lots of action with lots of variety and a deadline to meet.
+Planner[hover]You like to think ahead and strategize your next steps.
+Stability[hover]Very little change in your daily tasks, job description, career path, etc.  You find a 'comfortable' situation and you stick with it.
+Ingenious[hover]You are very creative and an 'outside of the box' thinker.
+Service[hover]Provides a craft or a trade to its customers.
+Practical[hover]'Down to Earth' and No-nonsense mentality.
+Indoors[hover]Working behind a desk or inside an office building.
+Dependable[hover]Trustworthy and reliable.
+Structured[hover]Organized & Predictable
+Leadership[hover]Being the person everyone looks to for direction.
+Pressure[hover]A tense feeling of strain brought about by upcoming deadlines or nearly impossible tasks that have high risk and high rewards.
+Helpfulness[hover]You assist others willingly and sometimes without being asked.
+Variety[hover]A different duty/task every day.  Never the same day twice.
+Creativity[hover]You like to think of new or alternative ways of addressing a problem.
+Interact with People[hover]Constant contact with clients/customers/co-workers.
+[category]
+LEISURE[hover]Any industry that includes sports, recreation, hospitality, etc.
+[topics]
+Please Others[hover]You find meaning and gratification in making others happy.
+Outdoors[hover]No offices or stuffy cubicles for you!
+Independent[hover]You are self-motivated and self-directed.
+Money[hover]High Salary
+Informative[hover]You take pride in having and sharing information, data, facts with others.
+Fast Pace[hover]Lots of action with lots of variety and a deadline to meet.
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Stability[hover]Very little change in your daily tasks, job description, career path, etc.  You find a 'comfortable' situation and you stick with it.
+Considerate[hover]You are very thoughtful and caring of others needs and feelings.
+Travel[hover]Frequent Business Trips
+Thoughtfulness[hover]You are always thinking of how you can help someone or make their day by doing something nice for them.
+Entertaining[hover]Providing a fun means of distraction from the everyday grind and a release from the stresses of life.
+Planner[hover]You like to think ahead and strategize your next steps.
+Structured[hover]Organized & Predictable
+Leadership[hover]Being the person everyone looks to for direction.
+Pressure[hover]A tense feeling of strain brought about by upcoming deadlines or nearly impossible tasks that have high risk and high rewards.
+Helpfulness[hover]You assist others willingly and sometimes without being asked.
+Variety[hover]A different duty/task every day.  Never the same day twice.
+Adventurous[hover]Discovering new places and meeting new people is exciting to you.
+Interact with People[hover]Constant contact with clients/customers/co-workers.
+[category]
+HUMAN SERVICES[hover]Includes industries such as social work, counseling, home health care, elder care, etc.
+[topics]
+Factual[hover]Driven by numbers, data and other quantitative forms of the 'truth.'
+Research[hover]Searching and sifting through data in journals, files, books or qualitative knowledge from other experts.
+Independence[hover]You are self-motivated and self-directed.
+Money[hover]High Salary
+Ethical[hover]Follow and abide by established rules and laws.
+Philanthropic[hover]A giving person or organization which donates and asks for nothing in return.
+Considerate[hover]You are very thoughtful and caring of others needs and feelings.
+Prestigious[hover]The organization is widely known and is highly regarded as one of the best in its field.
+Nurturing[hover]Very caring and concerned about the well-being of others.
+Inspirational[hover]Provides hope and inspiration to all who use its services or purchases its products.  (Think of St. Jude's Children's Cancer Research Hospital.)
+Facilitator[hover]You help move projects and conversations along so they flow smoothly and come to a desired conclusion or reach their goals.
+Influential[hover]An influential organization or job produces a lot of respect and admiration from those on the outside because they too want to be a part of that 'something great' your company/job is accomplishing.
+Sympathetic[hover]Having an ability to feel another person's anguish/pain and genuinely care about helping him/her.
+Structured[hover]Organized & Predictable
+Trustworthy[hover]You are dependable and can be counted on to keep your word or to provide support.
+Pressure[hover]A tense feeling of strain brought about by upcoming deadlines or nearly impossible tasks that have high risk and high rewards.
+Helpfulness[hover]You assist others willingly and sometimes without being asked.
+Work with Concepts[hover]Working with theories or beliefs or ideas instead of working with hard data or things/tools.
+Intelligent[hover]You have a fairly high IQ and are able to think critically and identify solutions to problems without having all the details.
+Complex Problems[hover]Difficult situations that have multiple causes, multiple issues and possible multiple solutions.
+[category]
+MEDIA[hover]Any industry that might include journalism, reporting or entertainment in print, television, radio or Internet formats.
+[topics]
+Morality[hover]You have a personal code of conduct that prevents you from lying, cheating, stealing, harming others, etc.
+Outdoors/Field Work[hover]No offices or stuffy cubicles for you!
+Trustworthy[hover]You are dependable and can be counted on to keep your word or to provide support.
+Money[hover]High Salary
+Toughness[hover]Strong and Stern
+Fast Pace[hover]Lots of action with lots of variety and a deadline to meet.
+Popularity[hover]Everyone seems to know you and like you.
+Free Form[hover]Provides freedom to think, act and express yourself.
+Entertaining[hover]You offer others a fun means of distraction from their everyday grind by making them laugh and they enjoy listing to your stories about your life.
+Structured[hover]Organized & Predictable
+Persuasive[hover]You have an ability to help others understand your side of the story or you can help them see things your way and take your side of an argument. 
+Please People[hover]Make your customers/clients/co-workers feel happy & satisfied.
+Dependable[hover]Similar to trustworthy. You can be counted on for support without fail.
+Prestige[hover]The organization is widely known and is highly regarded as one of the best in its field.
+Leadership[hover]Being the person everyone looks to for direction.
+Pressure[hover]A tense feeling of strain brought about by upcoming deadlines or nearly impossible tasks that have high risk and high rewards.
+Helpfulness[hover]You assist others willingly and sometimes without being asked.
+Variety[hover]A different duty/task every day.  Never the same day twice.
+Honesty[hover]Never lying, always being open and truthful.
+Work Alone[hover]Work independently and not in teams.
+[category]
+COMMUNICATION[hover]Any field or industry that includes journalism, television, radio, Internet or other forms of broadcast media.  It can also include the technology that is used to distribute communications.
+[topics]
+Influential[hover]An influential person produces a lot of respect and admiration from those he/she encounters because they too want to be a part of that 'something great' you are accomplishing.
+Out of the Office[hover]No offices or stuffy cubicles for you!
+Helpfulness[hover]You assist others willingly and sometimes without being asked.
+Money[hover]High Salary
+Toughness[hover]Strong and Stern
+Train Others[hover]Teaching your colleagues or co-workers how to perform a specific job or task.
+Popularity[hover]Everyone seems to know you and like you.
+Free Form[hover]Provides freedom to think, act and express yourself.
+Entertaining[hover]You offer others a fun means of distraction from their everyday grind by making them laugh and they enjoy listing to your stories about your life.
+Inspirational[hover]Provides hope and inspiration to all who use its services or purchases its products.  (Think of St. Jude's Children's Cancer Research Hospital.)
+Persuasive[hover]You have an ability to help others understand your side of the story or you can help them see things your way and take your side of an argument.
+Please People[hover]Make your customers/clients/co-workers feel happy and satisfied.
+Dependable[hover]Similar to trustworthy. You can be counted on for support without fail.
+Prestige[hover]The organization is widely known and is highly regarded as one of the best in its field.
+Guide/Mentor[hover]You like to help others by taking them 'under your wing' and showing them how to fit in and learn their way around.
+Educational[hover]An organization that is rooted in values of teaching and learning and continuous growth through gaining knowledge.
+Talkative[hover]You like to chat more than you like to listen to others.
+Variety[hover]A different duty/task every day.  Never the same day twice.
+Honesty[hover]Never lying, always being open and truthful.
+Work Alone[hover]Work independently and not in teams.
+[category]
+NUMBERS[hover]Any field or industry that heavily involves or incorporates the use of numbers and mathematical calculations.  For example, accountant, actuary, engineer, physicist, researcher, math teacher, statistician, etc.
+[topics]
+Integrity[hover]Means you are honest when nobody is watching what you're doing.
+Complex Problems[hover]Difficult situations that have multiple causes, multiple issues and possibly multiple solutions.
+Trustworthy[hover]You are dependable and can be counted on to keep your word or to provide support.
+Money[hover]High Salary
+Logical[hover]Everything can be explained with data and facts.
+Fast Pace[hover]Lots of action with lots of variety and a deadline to meet.
+Factual[hover]Driven by numbers, data and other quantitative forms of the 'truth.'
+Multi-Task[hover]A job that requires you to perform two or more duties/tasks at the same time.
+Intelligence[hover]You have a fairly high IQ and are able to think critically and identify solutions to problems without having all of the details.
+Structured[hover]Organized & Predictable
+Persuasive[hover]You have an ability to help others understand your side of the story or you can help them see things your way and take your side of an argument.
+Scientific[hover]A job or organization that is rooted in the research of science and data driven experimentation.
+Dependable[hover]Similar to trustworthy. You can be counted on for support without fail.
+Prestige[hover]The organization is widely known and is highly regarded as one of the best in its field.
+Inventive[hover]You are innovative and are able to invent new 'things' with your unique ideas.
+Pressure[hover]A tense feeling of strain brought about by upcoming deadlines or nearly impossible tasks that have high risk and high rewards.
+Curiosity[hover]An internal urge to learn, explore and discover.
+Business Based[hover]An organization or job that is rooted in the mission of perpetuating capitalistic or business and consumer related initiatives.
+Honesty[hover]Never lying, always being open and truthful.
+Work Alone[hover]Work independently and not in teams.
+[category]
+AGRICULTURE[hover]The science or practice of farming, including cultivation of the soil for the growing of crops and the rearing of animals to provide food, wool, and other products.
+[topics]
+Hard Worker[hover]You like giving 100% each day and you don't mind working overtime to get a job done.
+Outdoors[hover]No offices or stuffy cubicles for you!
+Independent[hover]You are self-motivated and self-directed.
+Research[hover]A job or organization that is rooted in the research of science and data driven experimentation.
+Toughness[hover]Strong and Stern
+Slow Pace[hover]There are fewer fast and furious deadlines, instead there might be a deadline that coincides with growing season cycles.
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Stability[hover]Very little change in your daily tasks, job description, career path, etc.  You find a 'comfortable' situation and you stick with it.
+Industrious[hover]Diligent, constantly occupied with a project.
+Use Hands[hover]A job that requires you to get some dirt under your fingernails.
+Practical[hover]'Down to Earth' and No-nonsense mentality.
+Philanthropic[hover]A giving person or organization which donates and asks for nothing in return.
+Dependable[hover]Similar to trustworthy. You can be counted on for support without fail.
+Structured[hover]Organized & Predictable
+Diligent[hover]A determined worker who keeps after a challenging project and never gives up.
+Environmental[hover]A job or an organization that is rooted in geological, atmospheric, agricultural, oceanic or any other biome of 'Mother Earth.'
+Curiosity[hover]An internal urge to learn, explore and discover.
+Travel[hover]Frequent business trips.
+Expend Energy[hover]You like sweating and working to the point of physical exhaustion.
+Interact with Animals[hover]Constant contact with animals instead of clients/customers/co-workers.
+[category]
+GOVERNMENT[hover]The political direction, administration and control exercised over the actions of the members, citizens, or inhabitants of communities, societies, and states, etc.
+[topics]
+Morality[hover]You have a personal code of conduct that prevents you from lying, cheating, stealing, harming others, etc.
+Pressure[hover]A tense feeling of strain brought about by upcoming deadlines or nearly impossible tasks that have high risk and high rewards.
+Toughness[hover]Strong and Stern
+Uncertainty[hover]Not having a solid knowledge of upcoming problems/issues to face and not knowing how long your career will last.
+Ambitiousness[hover]Setting extremely lofty goals and pursuing them with excitement and enthusiasm.
+Travel[hover]Frequent Business Trips
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Money[hover]High Salary
+Respected[hover]Seen as an authority, as a leader and is admired by many people.
+No Privacy[hover]Most of a politicians personal life is followed by the news media and exposed to the public.
+Ethical[hover]Follow and abide by established rules and laws.
+Serve Others[hover]All of your duties and responsibilities are required to represent and serve the constituents who voted for you. Or, as an administrator, your job is to work for/with elected politicians/officials so they can uphold their duty to serve others.
+Helpful[hover]You assist others willingly and sometimes without being asked.
+Fast Pace[hover]Lots of action with lots of variety and a deadline to meet.
+Powerful[hover]Having influence over others by holding a lofty position or status.
+Recognition[hover]Acknowledged for your hard work with awards, honors, praise or even bonuses.
+Socially Responsible[hover]Is an ethical theory that an entity whether it is a government, corporation, organization or individual has a responsibility to society at large.
+Variety[hover]A different duty/task every day.  Never the same day twice.
+Leadership[hover]Being the person everyone looks to for direction.
+Structured[hover]Organized & Predictable
+[category]
+HEALTH[hover]Any field or industry related to the health and well-being of humans, animals, etc.  For example:  Nurse, Physician, Dentist, Veterinarian, etc.
+[topics]
+Ethical[hover]Follow and abide by established rules and laws.
+Research/Discovery[hover]A job or organization that is rooted in the research of science and data driven experimentation.
+Independent[hover]You are self-motivated and self-directed.
+Schedules/Structure[hover]Organized & Predictable
+Complex Problems[hover]You enjoy challenges from difficult situations that have multiple causes, multiple issues and possibly multiple solutions.
+Fast Pace[hover]Lots of action with lots of variety and a deadline to meet.
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Save Lives[hover]The well-being and the status of someone's life depends upon your skills and abilities.
+Research[hover]You enjoy the research of scientific theory and data driven experimentation.
+Money[hover]High Salary
+Practitioner[hover]Someone who works with patients in an office or hospital but doesn't spend much time researching medicine or engaging in surgery or medical training/supervision.
+Continuous Learning[hover]Every day presents new discoveries on the job and on occasion, through  formal training.
+Influential[hover]Others seek and value your opinion and your status/respect sways their decisions.
+Technology[hover]Frequently work with high-tech devices, instruments and computers.
+Conceptual[hover]You can easily visualize images of your ideas or long term plans. You are a 'visionary.'
+Recognition[hover]Acknowledged for your hard work with awards, honors, praise or even bonuses.
+Nurturing[hover]Very caring and concerned about the well-being of others.
+Variety[hover]A different duty/task every day.  Never the same day twice.
+Discovery[hover]Similar to curiosity. An internal urge to learn, explore.
+Heal Others[hover]Similar to practitioner. Perhaps working in an urgent care facility, emergency room or a doctor's office where patient care is primary and all other medical related tasks are seconday or non-existent.
+[category]
+LAW[hover]Any industry or field that includes the study of legal policies.  For example: Attorney/Lawyer, Paralegal, Public Defense/Prosecution, Compliance Auditors, Police Officers, Mediator, Legal Secretary, etc.
+[topics]
+Ethical[hover]Follow and abide by established rules and laws.
+Pressure[hover]A tense feeling of strain brought about by upcoming deadlines or nearly impossible tasks that have high risk and high rewards.
+Toughness[hover]Strong and Stern
+Structured[hover]Organized & Predictable
+Ambitiousness[hover]Setting extremely lofty goals and pursuing them with excitement and enthusiasm.
+Competition[hover]The act of competing against someone, as for profit or a prize.
+Successful[hover]Status, Respect, Money, Fame, Accomplished all of your goals.
+Money[hover]High Salary
+Respected[hover]Seen as an authority, as a leader and is admired by many people.
+Excitement[hover]Lots of drama, action and tragedy occurs within common legal cases.
+Aggressiveness[hover]Having a 'killer instinct' and a relentless drive to attain one's goal.
+Help Society[hover]Establishing and enforcing laws ultimately create a more civil and safe society.
+Strategic[hover]A calculating thinker, a strategist is someone who plans 'two steps ahead' of others and anticipates every conceivable action he/she will need to be successful.
+Fast Paced[hover]Lots of action with lots of variety and a deadline to meet.
+Powerful[hover]Having influence over others by holding a lofty position or status.
+Recognition[hover]Acknowledged for your hard work with awards, honors, praise or even bonuses.
+Articulate[hover]Very well-spoken with an extensive vocabulary and commanding, persuasive thought process that is easily expressed verbally.
+Variety[hover]A different duty/task every day.  Never the same day twice.
+Leadership[hover]Being the person everyone looks to for direction.
+Protect Others[hover]Enforcing and upholding laws ultimately create a more civil and safe society.
+[category]
+MANUFACTURING[hover]Any field or industry that involves the designing/making/assembling of a good or product with large-scale machinery.
+[topics]
+Hard Worker[hover]You like giving 100% each day and you don't mind working overtime to get a job done.
+Indoors[hover]All manufacturing work is conducted inside of a large warehouse or factory.
+Solitary[hover]You are able/enjoy working alone or with others but working independently.
+International[hover]Most of the large scale manufacturing is conducted overseas.  With an international background, your career prospects can greatly expand.
+Toughness[hover]Strong and Stern
+Fast Paced[hover]Lots of action with lots of variety and a deadline to meet.
+Strategic[hover]A calculating thinker, a strategist is someone who plans 'two steps ahead' of others and anticipates every conceivable action he/she will need to be successful.
+Stability[hover]Very little change in your daily tasks, job description, career path, etc.  You find a 'comfortable' situation and you stick with it.
+Industrious[hover]Diligent, constantly occupied with a project.
+Rigid[hover]A job or task that is set in its scope (what you can do and when you can do it) and does not have room for flexibilty or change.
+Practical[hover]'Down to Earth' and No-nonsense mentality.
+Mechanical Oriented[hover]Focuses on machines and mechanical operations/processes.
+Dependable[hover]Similar to trustworthy. You can be counted on for support without fail.
+Structured[hover]Organized & Predictable
+Leadership[hover]Being the person everyone looks to for direction.
+Pressure[hover]A tense feeling of strain brought about by upcoming deadlines or nearly impossible tasks that have high risk and high rewards.
+Process Minded[hover]Thinking about a job as an 'input and output' process with critical accomplishments/goals in between.  Think of an assembly line process as an example.
+Repetitive[hover]Performing the same task over and over, sometimes for the entire work day.
+Planner[hover]Similar to strategic. Think ahead to avoid problems.
+Cutting Edge[hover]Some manufacturing facilities are high-tech, state of the art buildings that produce software, etc.  Others are dingy factories that make cardboard boxes.
+[category]
+RETAIL[hover]Any field or industry related to the distribution and sales of consumer goods or services.  For example: Retail Clerk, Shipping & Receiving, Commission Sales, Customer Service, Product Placement, Professional Shopper, etc.
+[topics]
+Hard Worker[hover]You like giving 100% each day and you don't mind working overtime to get a job done.
+Work/Life Balance[hover]Provides an opportunity for you to have time away from work (nights, weekends, holidays) so you can spend time with your family and friends.
+Independence[hover]You are self-motivated and self-directed.
+Money[hover]High Salary
+Ethical[hover]Follow and abide by established rules and laws.
+Leadership[hover]Being the person everyone looks to for direction.
+Considerate[hover]You are very thoughtful and caring of others needs and feelings.
+Prestigious[hover]The organization is widely known and is highly regarded as one of the best in its field.
+Helpful[hover]You assist others willingly and sometimes without being asked.
+Interpersonal[hover]Involves talking, relating, interacting with people on a business and social level.
+Managerial[hover]Directing others and supervising/evaluating their progress.
+Fast Paced[hover]Lots of action with lots of variety and a deadline to meet.
+Sympathetic[hover]Having an ability to feel another person's anguish/pain and genuinely care about helping him/her.
+Structured[hover]Organized & Predictable
+Trustworthy[hover]You are dependable and can be counted on to keep your word or to provide support.
+Pressure[hover]A tense feeling of strain brought about by upcoming deadlines or nearly impossible tasks that have high risk and high rewards.
+Sales Oriented[hover]Making the customer purchase your goods and services so you can make money is what drives you.
+Customer Focus[hover]The job or the organizations number one priority is to satisfy the customer.
+Entrepreneurial[hover]An independent drive to create a company of your own.
+International[hover]With the advent of Internet shopping, international retail sales are extremely common.
+

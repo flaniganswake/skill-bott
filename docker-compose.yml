@@ -1,0 +1,23 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.7
+    container_name: skillbott_db
+    restart: always
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: toor
+      MYSQL_DATABASE: assess
+      MYSQL_USER: assess
+      MYSQL_PASSWORD: wessivem37
+  app:
+    image: flaniganswake/skillbott-app:latest
+    container_name: skillbott_app
+    volumes:
+      - .:/code
+    ports:
+      - "8001:8000"
+    depends_on:
+      - db
+

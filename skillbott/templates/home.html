@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% block content %}
+{% include "header.html" %}
+
+{% if results and results.values_complete %}
+<div style='margin-left:auto;margin-right:auto;margin-top:0px;padding-bottom:0px;'>
+    <a href="{% url 'views.certificate' %}" target='_blank'>
+    <h2 style='font-style:italic;color:blue;text-decoration:underline;padding-top:10px;text-align:center;'>Your Certificate of Completion!</h2></a>
+</div>
+{% endif %}
+
+<h1 style='padding-top:10px;text-align:center;color:red;'>Assessments - Overview and Directions</h1><br>
+
+<h2 style='padding-bottom:30px;padding-left:40px;padding-right:80px;text-align:justify;'>
+There are three assessments you will be taking. The first is used to determine the relative level of interest 
+and the area of interest you have in a number of categories. The second assessment will evaluate your current 
+and potential skill levels for your top five categories from the first assessment. The third will measure your 
+personal and job valuation for each of your top five categories.</h2>
+
+{% if user.username != 'demo' %}
+<h2  style='padding-bottom:30px;padding-left:40px;padding-right:80px;text-align:justify;'>
+<a href="{% url 'views.start_demo' %}" style='color:red;text-decoration:underline;'>Start Demo</a>
+- if you would like to see a demo of a typical user who has completed all three assessments.
+This will log you into a demo user account. From here you can follow the links to each of the
+assessments where you can view the completed categories, the analysis and the summary pages.
+</h2>
+{% endif %}
+
+{% if inventories %}
+<table width="780" border="0" cellspacing="0" cellpadding="0"><tbody>
+
+    {% for inventory in inventories.all %}
+    <tr><td style='text-align:left;'>
+        {% if inventory.type == 'interests' %}
+            <div style='float:left;'>
+                {% if results and results.interests_complete %}
+                    <a href="{% url 'views.interests_analysis' %}">
+                {% else %}
+                    <a href="{% url 'views.interests_inventory' start=1 %}">
+                {% endif %}
+                    <h2 style='color:red;padding-left:25px;text-decoration:underline;'>{{ inventory.title }}</h2></a>
+            </div>
+            {% if results and results.interests_complete %}
+                <div style='float:left;'>
+                <h2 style=color:blue;padding-left:20px;font-style:italic;'>completed!</h2>
+                </div>
+            {% endif %}
+        {% endif %}
+        {% if inventory.type == 'skills' %}
+            <div style='float:left;'>
+                {% if results and results.interests_complete %}
+                    {% if results.skills_complete %}
+                        <a href="{% url 'views.skills_analysis' %}">
+                    {% else %}
+                        <a href="{% url 'views.skills_inventory' %}">
+                    {% endif %}
+                    <h2 style='color:red;padding-left:25px;text-decoration:underline;'>{{ inventory.title }}</h2></a>
+                {% else %}
+                    <h2 style='color:red;padding-left:25px;'>{{ inventory.title }}</h2>
+                {% endif %}
+            </div>
+            {% if results and results.skills_complete %}
+                <div style='float:left;'>
+                <h2 style=color:blue;padding-left:20px;font-style:italic;'>completed!</h2>
+                </div>
+            {% endif %}
+        {% endif %}
+        {% if inventory.type == 'values' %}
+            <div style='float:left;'>
+                {% if results and results.skills_complete %}
+                    {% if results.values_complete %}
+                        <a href="{% url 'views.values_analysis' %}">
+                    {% else %}
+                        <a href="{% url 'views.values_inventory' %}">
+                    {% endif %}
+                    <h2 style='color:red;padding-left:25px;text-decoration:underline;'>{{ inventory.title }}</h2></a>
+                {% else %}
+                    <h2 style='color:red;padding-left:25px;'>{{ inventory.title }}</h2>
+                {% endif %}
+            </div>
+            {% if results and results.values_complete %}
+                <div style='float:left;'>
+                <h2 style=color:blue;padding-left:20px;font-style:italic;'>completed!</h2>
+                </div>
+            {% endif %}
+        {% endif %}
+    </td></tr>
+
+    <tr><td style='text-align:left;'>
+        <h2 style='padding-bottom:30px;padding-left:40px;padding-right:20px;text-align:justify;'>{{ inventory.description }}</h2></a>
+    </td></tr>
+
+    {% endfor %}
+</tbody></table>
+{% endif %}
+
+</div>
+<br><br>
+</body>
+
+{% include "footer.html" %}
+{% endblock content %}

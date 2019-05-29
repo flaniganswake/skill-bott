@@ -1,0 +1,260 @@
+[inventory]
+skills
+[title]
+SKILLS & ABILITIES
+[tagline]
+What you can do well - and what you would like to learn to do well.
+[description]
+The Skills and Abilities will focus on what you can do already or have the aptititude or desire to learn. It provides a good foundation for determining where you are at according to your abilities and potential.
+[instructions]
+Complete the YELLOW column first, asking yourself "HOW WELL you can CURRENTLY conduct the task" in the left hand column. Then complete the GREEN column.  When completing the GREEN column, think about if you desire to gain training in the FUTURE to help you perform that task more effectively. For example, in General Business, you might have a slight interest in "sales" and in this inventory, you are asked to decide in the GREEN column if you would like to receive some training or take classes or earn a degree so you might learn how to become a successful sales person. These are the FIVE categories that match your HIGHEST interest scores.
+[choices]
+Poor;Somewhat;Well
+No Desire[hover]I have no desire to learn this skill.;Experience[hover]I will learn through experience.;Will Learn[hover]I am willing to learn this skill.
+[category]
+GENERAL BUSINESS[hover]Any are or discipline within the common forms of General Business:  Accounting, Advertising, Finance, Management, Marketing, Human Resources Training & Development, Entrepreneurship, etc.
+[topics]
+Selling[hover]Inside, Outside, or Commission Sales which DO NOT involve retail.
+Managing[hover]Guiding & Supervising People or Projects
+Promoting[hover]Generating interest about a product/service/idea by advertising it in a formal or informal (word of mouth) way.
+Leading[hover]Taking authority of a program or team and directing it/them towards their established goals.
+Owning[hover]Having complete ownership (financial responsibility) of a product/program/organization.
+Delegating[hover]Passing duties and responsibilities to co-workers and subordinates in order to involve more team members who have the best skills to complete the task.
+Organizing[hover]Arranging complex goals/tasks/duties/responsibilities by priority level, thus maintaining the ability to handle a substantial workload.	
+Negotiating[hover]An ability to influence/persuade someone to come to your terms and agree to "see things your way."  Also an ability to find a compromise or middle ground by finding mutual benefits.
+Marketing[hover]The process of discovering who your customers are, identifying what their needs are, then advertising to them so they are informed that you can fulfill their business needs.
+Other[hover]Insert a GENERAL BUSINESS skill here that has not been included in this list.
+[category]
+CREATIVE ARTS[hover]Any of the disciplines or areas within the interpretive or performing arts.
+[topics]
+Painting[hover]Painting with oil- or water-based paints on canvass, ceramics, pottery, etc as a form of artwork.
+Sculpting[hover]Chiseling or forming clay, marble, stone, etc as a form of artwork.
+Drawing[hover]Sketching, cartooning, etc with ink, charcoal, graphite, etc as a form of artwork.
+Designing[hover]Creatively planning designs for landscapes, buildings, interior rooms, clothes, websites, etc.
+Expressing[hover]Using your preferred form of creative outlet (singing, dancing, painting, designing, etc) as a means of expressing your inner thoughts and feelings.
+Advertising[hover]Creating, designing, writing, drawing, filming any form of outreach or promotion about a program/project/service/person or thing.
+Creating[hover]Developing something completely new from "scratch" or improving something that currently exists with the addition of a new idea or creation.
+Formulating[hover]Developing a series or a collection of ideas, thoughts, feelings, concepts or creative visions into a story or design or product or piece of artwork.
+Writing[hover]Creative writing includes stories, novels, poems, journals, blogs, articles, books or even websites.
+Other[hover]Insert a CREATIVE ARTS skill here that has not been included in this list.
+[category]
+PERFORMING ARTS[hover]Any of the disciplines or areas within the interpretive or performing arts.
+[topics]
+Singing[hover]Vocal performance either live or via recordings.
+Dancing[hover]Any form of interpretive movement as entertainment or ritualistic ceremony.
+Acting[hover]Staged  & scripted performances for theatre, film or television.
+Producing[hover]A movie or TV producer is someone who creates the scenes and conditions for making the films/shows possible. The producer initiates, co-ordinates, supervises and controls matters such as fund-raising, hiring key personnel and arranging for promoters and advertisers.
+Composing[hover]A person who writes music for the purpose of entertainment and performance.
+Playing Instruments[hover]Performing using any variety of musical instruments, guitar, drums, flute, tuba, etc.
+Directing[hover]A person who controls, supervises or manages a theatre performance a symphony orchestra, a movie or television show.
+Coordinating[hover]A person whose job is to make sure everything is running smoothly between the actors/performers and the stage/set and with the director and producers.
+Adapting[hover]Having an ability to "free style" or "create on the fly" by adapting to a situation or circumstance.  Some comedians adapt their entire stand-up acts to the topics or questions their audiences present.
+Other[hover]Insert a PERFORMING ARTS skill here that has not been included in this list.
+[category]
+PHYSICAL SCIENCES[hover]Any discipline or field that consists of the 'hard' sciences: Physics, Astronomy, Geology, Biology, Chemistry, Botany, etc.
+[topics]				
+Testing[hover]Take measures to check the quality, performance, or reliability of (something), especially. before putting it into widespread use or practice.
+Monitoring[hover]Observe and check the progress or quality of (something) over a period of time and keep it under systematic review.
+Investigating[hover]The action of investigating something or someone; formal or systematic examination or research.
+Hypothesizing[hover]To suggest a possible explanation for something based on the information you have, but without knowing whether the explanation is really true.
+Exploring[hover]To investigate systematically for the first time, not knowing what you might expect to find.
+Calculating[hover]Capable of or made for performing calculations, especially arithmetical computations.
+Measuring[hover]Confirm the size, amount, or degree of (something) by using an instrument or device marked in standard units or by comparing it with an object of known size.
+Observing[hover]Notice or perceive (something) and register it as being significant
+Analyzing[hover]Examine methodically and in detail the make-up or structure of (something, especially information), typically for purposes of explanation and interpretation.
+Other[hover]Insert a PHYSICAL SCIENCES skill here that has not been included in this list.
+[category]
+SOFT SCIENCES[hover]Any area or discipline from any of the "humanistic sciences" such as Psychology, Anthropology, Sociology, etc.
+[topics]
+Writing[hover]Any form of technical or professional writing for the purposes of documentation.
+Studying[hover]Investigate and analyze (a subject or situation) in detail.
+Coaching[hover]Extending traditional training methods to include focus on an individual's needs and accomplishments via close observation.
+Enquiring[hover]Showing an interest in learning new things.
+Researching[hover]The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions.
+Teaching[hover]Ideas, actions or principles presented by an authority to others who want to know about or learn how to incorporate those ideas, actions or principles in their own lives/professions.
+Assessing[hover]Evaluate or estimate the nature, ability, or quality of something or someone's situation.
+Motivating[hover]Improving or assessing the general desire or willingness of someone to do something. 
+Investigating[hover]The action of investigating something or someone; formal or systematic examination or research.
+Other[hover]Insert a SOFT SCIENCES skill here that has not been included in this list.
+[category]
+TECHNOLOGY[hover]Any field or discipline that involves electronics and computers in performing a task/function/duty or for providing a service.
+[topics]
+Analyzing[hover] Examine methodically and in detail the make-up or structure of (something, especially information), typically for purposes of explanation and interpretation.
+Programming[hover]Programming computer language is usually split into the two components of syntax (form) and semantics (meaning).
+Fixing[hover]The act of repairing something that is broken or not functioning properly.
+Designing[hover]Creative or innovative improvements to the form or function of a technological product or service.
+Developing/Writing[hover]Writing software code, developing new ideas for hardware improvements, etc.
+Building[hover]Assembling or constructing components of a piece of technology, such as wiring, computer chips, mother boards, monitors, motors, semi conductors, micro processors, etc.
+Researching[hover]The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions.
+Monitoring[hover]Observe and check the progress or quality of (something) over a period of time and keep it under systematic review.
+Innovating[hover]A new idea or concept which produces a positive change, to improve a product.
+Other[hover]Insert a TECHNOLOGY skill here that has not been included in this list.
+[category]
+TOOLS[hover]Any discipline or industry that uses A device or implement, esp. one held in the hand, used to carry out a particular job.
+[topics]
+Constructing[hover]Build or erect (something, typically a building, road, or machine).
+Repairing[hover]Fix or mend (a thing suffering from damage or a fault).
+Landscaping[hover]Improve the aesthetic appearance of (a piece of land) by changing its contours, adding ornamental features and plantings.
+Building[hover]To form by combining materials or parts.
+Refurbishing[hover]To make clean, bright, or fresh again; renovate.
+Laboring[hover]Physical exertion, especially during unskilled manual work.
+Designing[hover]Creative or innovative improvements to the form or function of a job by implementing the right tools.
+Inspecting[hover]Examine something to ensure that it reaches/meets an official standard.
+Lifting[hover]Picking up or moving heavy objects.
+Other[hover]Insert a TOOL skill here that has not been included in this list.
+[category]
+TRANSPORTATION[hover]Any field or discipline that involves moving a person or good or service via a means of conveyance that might include trains, planes, ships, trucks, passenger cars, public busses, taxis, etc.
+[topics]
+Trucking/Hauling[hover]Driving or operating any of the various heavy motor vehicles designed for carrying or pulling loads.
+Flying[hover]Operating any of the various aircrafts designed for carrying  passengers or delivering freight.
+Driving/Racing[hover]Relating to the controlling of a motor vehicle in motion
+Boating/Shipping[hover]The transport of passengers or goods by sea, lake, river, etc.
+Railroading[hover]The construction or operation of railroads to move passengers or freight.
+Designing[hover]Creative planning of new modes or forms of transportation, such as electric cars.  Or planning the flow of traffic grids such as civil engineering.
+Engineering/Building[hover]The branch of science and technology concerned with the design, building, and use of engines, machines, and structures utilized in transportation.
+Importing/Exporting[hover]Bringing into or shipping out of a country such things as products, goods or commodities.
+Loading/Unloading[hover]Lifting and removing goods, products, freight from a truck, boat, cargo plane, etc.
+Other[hover]Insert a TRANSPORTATION skill here that has not been included in this list.
+[category]
+LEISURE[hover]Any industry or discipline that entails entertainment, sports, hobbies or vacationing.
+[topics]
+Traveling[hover]Seeing the world for fun!
+Lodging[hover]Hotel Industry, Hotel Management
+Planning[hover]Designing travel arrangements for yourself or for others.
+Catering[hover]Food service for parties and large events.
+Events Coordinating[hover]Party and wedding planner.
+Scheduling[hover]Coordinate arrival and departure times of guests, events, programs, etc.
+Organizing[hover]Coordinating multiple tasks simultaneously such as delivery of food, set up of tables, display of decorations, etc.
+Promoting[hover]Generating interest about a product/service/idea by advertising it in a formal or informal (word of mouth) way.
+Cooking/Chef[hover]Feed/meal preparation.
+Other[hover]Insert a LIESURE skill here that has not been included in this list.
+[category]
+HUMAN SERVICES[hover]Any field or discipline that involves personal services for individuals, such as counseling, social work, teaching, coaching, etc.
+[topics]
+Counseling[hover]Helping someone work out their problems by talking and providing guidance.
+Teaching[hover]Helping someone learn by describing or demonstrating the new task or idea.
+Mediating[hover]Helping two sides of an argument or disagreement come to terms and find a compromise.
+Guiding[hover]Providing direction and support toward positive goals or outcomes. 
+Helping[hover]Lending assistance and support.
+Protecting/Sheltering[hover]Shielding someone from harm by providing a safe place to live.
+Leading[hover]Taking control to improve someone's situation by role modeling appropriate or successful behaviors.
+Listening[hover]Reflectively and empathically hearing the message in what the other person is saying.
+Conveying[hover]Demonstrating to another person that you have an understanding of their difficult situation.
+Other[hover]Insert a HUMAN SERVICES skill here that has not been included in this list.
+[category]
+MEDIA[hover]Any field or discipline that involves journalism (print & broadcast), editors, producers, directors, or on-air personalities.
+[topics]
+Writing[hover]Involves creating or writing press releases, newspaper articles, informational blogs, editorials, news broadcasts, sports reports, etc.
+Researching[hover]The systematic investigation into and study of materials and sources in order to establish facts and reach new conclusions.
+Communicating[hover]The imparting or exchanging of information or news via written, verbal or visual/digital means.
+Broadcasting[hover]Transmit (a program or some information) by radio or television:
+Entertaining[hover]Providing amusement or enjoyment for other through your writing or journalistic efforts.
+Internet Designing[hover]Creating web pages, blogs, or any form of online communication.
+Advertising[hover]Creatively attracting awareness to your idea or product or service.
+Promoting[hover]Sharing a concept or a cause via word of mouth thus helping to spread awareness.
+Podcasting[hover]Capturing and storing information online via video or audio files.
+Other[hover]Insert a MEDIA skill here that has not been included in this list.
+[category]
+COMMUNICATION[hover]Any field or discipline that involves writing, speaking, dancing or any other form of conveying information or news to other people.  Technology is often included in this category as it is the conveyance most often used in communications.
+[topics]
+Speaking[hover]Presenting to a group in a large conference room or talking to an audience who might be listening to you on the radio requires sharp and eloquent speaking skills.
+Translating[hover]An ability to convert languages or an ability to interpret meaning from someone's unclear messages. 
+Lecturing[hover]Preparing a speech and presenting it to a large auditorium full of attendees.
+Discussing[hover]Openly and objectively talking about a controversial topic without becoming emotional or argumentative.  Discussion involves intellectual discourse.
+Debating[hover]This is NOT arguing, this is all about civilly matching wits and facts with a person who disagrees with you.  You engage in a point, counter point exchange of  facts until someone 'wins' the debate.
+Writing[hover]Written forms of communication include books, articles, journals, blogs, etc.
+Listening[hover]Reflectively and empathically hearing the message in what the other person is saying.
+Demonstrating[hover]Showing someone how to do something through example.
+Understanding/Relating[hover]Having empathy for another person's situation and really having a sense of their pain/grief/joy, etc by seeing the world from their perspective.
+Other[hover]Insert a COMMUNICATION skill here that has not been included in this list.
+[category]
+NUMBERS[hover]Any field or discipline that involves the use or calculation of numbers, for example, Accountant, Actuary, Financial Advisor, Statistician, Math Teacher, Engineer, Physicist, etc.
+[topics]
+Calculating[hover]Adding or tabulating numbers in a formula to derive a solution to a problem.
+Monitoring[hover]Observe and check the progress or quality of (something) over a period of time; keep under systematic review.
+Compiling[hover]Produce (something, esp. a list, report, or book) by assembling information collected from other sources.
+Solving[hover]Finding the solution to a complex numerical problem or formula.
+Organizing[hover]Arrange into a structured order.
+Researching[hover]Scholarly or scientific investigation or inquiry.
+Formulating[hover]Create or devise methodically (a strategy or a proposal.
+Predicting[hover]Anticipating future performance with numerical or statistical calculations.
+Measuring[hover]Using numbers to match progress or make comparisons.
+Other[hover]Insert a NUMBERS skill here that has not been included in this list.
+[category]
+AGRICULTURE[hover]Any field or discipline  involving the science or practice of farming, including cultivation of the soil for the growing of crops and the rearing of animals to provide food, wool, and other products.
+[topics]
+Farming[hover]The activity or business of growing crops and raising livestock.
+Planting[hover]Place (a seed, bulb, or plant) in the ground so that it can grow.
+Soil Testing[hover]A soil test is the analysis of a soil sample to determine nutrient content, composition and other characteristics, including contaminants. Tests are usually performed to measure fertility and indicate deficiencies that need to be remedied..
+Irrigating[hover]The watering of land by artificial means to foster plant growth.
+Harvesting[hover]The crop that ripens or is gathered in a season.
+Raising Livestock[hover]Breeding and farming live animals for consumption in the open market.
+Fertilizing Plants[hover]Fostering the growth of crops by nourishing them with organic or synthetic production accelerators.
+Botanical Studies[hover]The scientific investigation of plants from a particular region or biome. 
+Genetic Alterations to Crops[hover]Genetically modified (GM) crops  are food items that have had their DNA changed through genetic engineering.
+Other[hover]Insert a AGRICULTURE skill here that has not been included in this list.
+[category]
+GOVERNMENT[hover]Any field or discipline that involves a system that outlines the laws, regulations, rules and policies that form a collection of citizens or members.
+[topics]
+Leading People[hover]Directing and guiding a group of individuals toward a collective goal.
+Debating Topics[hover]This is NOT arguing, this is all about civilly matching wits and facts with a person who disagrees with you.  You engage in a point, counter point exchange of  facts until someone 'wins' the debate.
+Gaining Trust of Others[hover]Demonstrating dependability so others feel comfortable following your direction.
+Raising Money[hover]Promoting your cause and developing funds from others who want to support your cause or initiative.
+Networking[hover]Constantly meeting new people, connecting with them and utilizing each others' connections to people and resources.
+Making Speeches[hover]Formally speaking to groups and large audiences. 
+Understanding Laws[hover]Having a thorough understanding of a local, regional or national legal system.  On a smaller level, understanding the policies and procedures of an organization or company.
+Spearheading Civic Reform[hover]Creating movements with groups of like-minded people to create or improve civic or organizational laws/regulations.
+Historical Viewpoints[hover]Being a well-versed student of history---in a political and sociological context.
+Other[hover]Insert a GOVERNMENT skill here that has not been included in this list.
+[category]
+HEALTH[hover]Any field or discipline that involves the health and well-being of humans or animals such as a Doctor, Nurse, Surgeon, Dentist, Vet, etc.
+[topics]
+Testing & Diagnosis[hover]A procedure for critical evaluation; a means of determining the presence, quality, or truth of something; a trial.
+Monitoring Progress[hover]Following a situation to make sure it maintains progress and does not require more drastic interventions.
+Investigating Symptoms[hover]Following clues about manifestations that would lead to an identification of the root cause.
+Hypothesizing Causes[hover]Formulating multiple ideas or 'hunches' about what might be causing a problem, then testing your 'hunches' to see which one is correct.
+Exploring Solutions[hover]Testing and retesting possible solutions to a problem and looking for an answer from many different perspectives and sources.
+Calculating Risks[hover]Taking chances or risks only after you have measured all of your options and have calculated the risks versus rewards of your solutions.
+Measuring Results[hover]Being accountable for your actions and solutions means measuring the progress, tracking the shortcomings and making adjustments in order to ensure constant improvement.
+Naturalistic Observing[hover]An ability to simply watch someone or something, notice patterns, identify possible problems and formulate solutions---just by watching and without any interaction.
+Analyzing Research Findings[hover]Reviewing and synthesizing data or information so it can be used in future work or research.
+Other[hover]Insert a HEALTH skill here that has not been included in this list.
+[category]
+LAW[hover]Any field or discipline that includes jobs or careers such as Attorney, Lawyer, Paralegal, Legal Secretary, Police Officer, etc.
+[topics]
+Debating Arguments[hover]This is NOT arguing, this is all about civilly matching wits and facts with a person who disagrees with you.  You engage in a point, counter point exchange of  facts until someone 'wins' the debate.
+Producing 'Leading' Questions[hover]Using a 'Socratic' method of teaching and questioning, you can lead another person into admitting his or her ignorance or guilt simply by answering the "trap" you set for them with your questions.
+Investigating Wrongdoings[hover]This might include crime scene investigations, or questioning witnesses or taking a statement from a victim for official records.
+Following Rules and Orders[hover]Knowing that the laws/rules or regulations are, you follow them and at work you  are always 'by the book' and you follow policies and procedures without incident.
+Guiding Others[hover]An ability to show others how to behave or act appropriately and are a good role model.
+Formulating Strategies[hover]Thinking two steps ahead of the other person or team, knowing their strengths and weaknesses; using your strengths and attacking their weaknesses is part of the strategy.
+Defending the Rights of Others[hover]Upholding the law and maintaining a civil society means defending the rights of those who have been wronged.
+Noticing Criminal Behavior[hover]Having a keen eye or a 'sixth sense' about criminal behavior.
+Analyzing Opponent's Weaknesses[hover]An ability to notice an adversary's weakness or shortcomings, then being able to establish a plan as to how you will leverage that weakness so you can win an argument or negotiate in your favor.
+Other[hover]Insert a LAW skill here that has not been included in this list.
+[category]
+MANUFACTURING[hover]Any field or discipline that involves the process of using large scale machinery for converting raw materials, components , or parts into finished goods that meet a customer's expectations.
+[topics]
+Testing	Process Flows[hover]An ability to test an 'input and output' process to ensure that a project is flowing from point to point during its developmental phase.
+Monitoring Production[hover]Constantly measuring and assessing productivity to ensure the final result will meet established outcomes and goals.
+Investigating Malfunctions[hover]Exploring the causes of problems to ensure that they are quickly fixed and prevented from future occurrences.
+Handling Order Intakes[hover]Processing multiple requests for work orders.
+Troubleshooting Machine Malfunction[hover]Possessing a mechanical aptitude whereby a breakdown of a machine can be easily identified and repaired.
+Calculating Output to Meet Future Orders[hover]Understanding the capabilities of your work team and being able to accurately calculate their productivity.
+Measuring Quality[hover]Establishing quality assurance measures and being able to test products or services against those benchmarks to ensure all products and services meet or exceed recommended standards.
+Observing Productivity of Workers[hover]Having an ability to watch or monitor someone's output and motivate him/her to produce greater amounts or a higher quality if necessary.
+Analyzing Pricing Costs of Production[hover]Watching or monitoring the costs associated with your teams productivity or output and identifying where time is slow and productivity is low as expensive areas of waste.
+Other[hover]Insert a MANUFACTURING skill here that has not been included in this list.
+[category]
+RETAIL[hover]Any field or discipline involving jobs or careers such as Store Clerk, Cashier, Merchandiser, Buyer, Display Designer, Manager, Customer Service Rep, Delivery, etc.
+[topics]
+Balancing a Cash Register[hover]An ability to give exact change so at the end of a shift, the cash  drawer is not one cent over or one cent under the amount that was in the cash drawer when the shift began.
+Monitoring Customer Satisfaction[hover]Recognizing the positive and negative feedback of customers and improving services accordingly.
+Settling Employee Complaints[hover]Acting as a mediator or as a change agent who helps customers resolve their issues.
+Displaying Items for Sale[hover]Creatively arranging products for interesting and eye-catching displays.
+Purchasing Items from a Wholesaler[hover]Working with the wholesaler in a role of purchaser or buyer, seeking the lowest prices to pass along to your customers.
+Calculating Prices in Your Head[hover]Possessing a mathematical ability to add dollars and cents quickly without a calculator.
+Measuring Product Popularity[hover]Designing surveys or focus groups or listening to customer feedback about products/services.
+Observing Customer Shopping Patterns[hover]Being mindful of which products sell and which ones do not and learning why certain items sell better than others.
+Analyzing Store Balance Sheets[hover]Reviewing the store or company accounting sheets to monitor profit margins for a particular fiscal quarter or year.
+Other[hover]Insert a RETAIL skill here that has not been included in this list.
