@@ -11,7 +11,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-bin/
 build/
 develop-eggs/
 dist/
@@ -86,6 +85,7 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
+bin/
 .env
 .venv
 env/
@@ -93,6 +93,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+pyvenv.cfg
 
 # Spyder project settings
 .spyderproject
