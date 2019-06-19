@@ -1,8 +1,12 @@
 #!/bin/bash
+shopt -s expand_aliases
 DOCKER_ID=$1
 if [ -z "$DOCKER_ID" ]; then
     echo "Error: missing docker ID"
     exit 1
+fi
+if [[ "$OSTYPE" == "msys" ]]; then
+    alias docker='winpty docker'
 fi
 echo "... running migrations"
 docker exec -ti $DOCKER_ID sh -c "python3 manage.py migrate"
